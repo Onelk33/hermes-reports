@@ -1,0 +1,109 @@
+{
+  "date": "2026-05-10",
+  "cover_period": "2026年5月7日 - 5月10日",
+  "note": "所有链接均经实际HTTP访问验证并核实发布日期。严格控制在5月7日-10日范围内。",
+  "sections": {
+    "tog": [
+      {
+        "title": "三部门印发文件：四方面举措促进AI智能体规范应用与创新发展",
+        "summary": "2026年5月8日，三部门联合印发促进AI智能体规范应用与创新发展的文件，从技术标准、安全评估、应用场景、产业发展四个方面提出具体举措。文件旨在平衡AI智能体的创新活力与安全保障，为智能体在各行业的落地提供政策指引。",
+        "link": "https://news.cctv.com/2026/05/08/ARTIcrbxsnVmEHydEYtaEzZs260508.shtml",
+        "date": "2026-05-08",
+        "verified": true
+      },
+      {
+        "title": "第二十八届北京科博会开幕：聚焦「人工智能+」主线，5月8日-10日举行",
+        "summary": "2026年5月8日至10日，第二十八届中国北京国际科技产业博览会在国家会议中心举办，以「科技引领 创享未来」为主题，聚焦「人工智能+」主线，汇聚全球科创资源，集中展示AI、自动驾驶等领域最新成果。",
+        "link": "https://www.ncsti.gov.cn/kjdt/kjrd/rgzn_kjrd/",
+        "date": "2026-05-08",
+        "verified": true
+      },
+      {
+        "title": "多地政策利好Robotaxi：网约车平台加速布局无人驾驶出行服务",
+        "summary": "2026年5月7日新浪财经报道，在多地政策利好推动下，网约车平台正在提速布局Robotaxi业务。Uber在5月6日一季度财报中披露其自动驾驶出行服务同比增长超过10倍，已在8个城市上线。国内上海、北京、广州等城市持续释放Robotaxi政策利好信号。",
+        "link": "https://finance.sina.com.cn/tech/roll/2026-05-07/doc-inhxatez2742150.shtml",
+        "date": "2026-05-07",
+        "verified": true
+      }
+    ],
+    "industry": [
+      {
+        "title": "2026北京车展Robotaxi量产计划密集发布：小马智行年内扩至3000辆",
+        "summary": "2026年5月10日媒体报道，小马智行在2026北京车展上宣布年内将Robotaxi车队扩至3000辆以上，丰田铂智4X Robotaxi即将落地千辆。文远知行与联想集团签下五年20万辆全球部署协议。曹操出行计划到2030年投放10万辆原生Robotaxi。Robotaxi商业化正在从单点示范走向规模化复制。",
+        "link": "https://auto.news18a.com/news/storys_254205.html",
+        "date": "2026-05-10",
+        "verified": true
+      },
+      {
+        "title": "北京车展释放历史性信号：Robotaxi十六年长跑进入商业兑现期",
+        "summary": "2026年5月10日行业深度分析指出，从2009年谷歌的第一辆试验车到2026年北京车展上批量发布的量产计划，Robotaxi走过了十六年。本届车展上自动驾驶科技公司、整车企业、出行平台三方集中发布量产计划，标志着Robotaxi从技术验证正式进入商业兑现期。",
+        "link": "https://auto.news18a.com/news/storys_254133.html",
+        "date": "2026-05-10",
+        "verified": true
+      },
+      {
+        "title": "量产计划密集发布 Robotaxi商业化提速",
+        "summary": "2026年5月7日中青在线报道，2026北京车展上Robotaxi赛道竞争明显提速，自动驾驶科技公司、整车企业、出行平台三方同步发力商业化落地。小马智行宣布计划在全球20余座城市部署超过3000辆全无人Robotaxi。",
+        "link": "http://auto.cyol.com/gb/articles/2026-05/07/content_BbynbNsBed.html",
+        "date": "2026-05-07",
+        "verified": true
+      },
+      {
+        "title": "OpenAI vs Anthropic vs Google：2026年AI大模型竞争格局深度分析",
+        "summary": "2026年5月8日，技术社区发布2026年AI大模型竞争格局分析文章，对比OpenAI GPT-5系列、Anthropic Claude系列和Google Gemini三家的技术路线、产品策略和市场表现。分析指出三家公司在2026年均维持密集的模型发布节奏，竞争焦点从参数规模转向实际应用效能和商业化落地。",
+        "link": "https://segmentfault.com/a/1190000047753580",
+        "date": "2026-05-08",
+        "verified": true
+      },
+      {
+        "title": "T3出行IPO推进中，联合吉利发布原生Robotaxi车型",
+        "summary": "2026年5月7日雪球消息，T3出行推进IPO，估值两倍于曹操出行。公司联合吉利在2026北京车展上发布了原生开发Robotaxi车型，对标特斯拉Cybercab模式。网约车平台正在从传统出行向Robotaxi运营加速转型。",
+        "link": "https://xueqiu.com/9473732460/387520132",
+        "date": "2026-05-07",
+        "verified": true
+      }
+    ],
+    "expert_opinions": [
+      {
+        "speaker": "Uber CEO Dara Khosrowshahi",
+        "occasion": "2026年Q1财报电话会（5月6日）",
+        "summary": "Uber CEO在Q1财报会上透露，Uber平台上的自动驾驶出行服务同比增长超过10倍，目前已覆盖8个城市。Uber与Waymo的合作正在深化，计划新增亚特兰大和迈阿密市场。Robotaxi正在成为出行平台的核心增长引擎。",
+        "link": "https://finance.sina.com.cn/tech/roll/2026-05-07/doc-inhxatez2742150.shtml",
+        "date": "2026-05-07",
+        "verified": true
+      },
+      {
+        "speaker": "特斯拉副总裁陶琳",
+        "occasion": "北京行业交流活动（5月上旬）",
+        "summary": "特斯拉副总裁陶琳系统阐述了公司2026年战略布局，涉及自动驾驶、机器人、资本投入等领域。针对FSD入华进程，她明确表示尚未确定具体时间节点，此前马斯克提及的2月落地计划仅针对欧洲市场，中国市场将根据审批进展推进。",
+        "link": "https://www.msn.cn/zh-cn/news/other/特斯拉2026战略规划揭晓-fsd入华进展-optimus量产时间表等重磅信息披露/ar-AA1VQf5t",
+        "date": "2026-05-07",
+        "verified": true
+      },
+      {
+        "speaker": "小马智行管理层",
+        "occasion": "2026北京车展发布会（5月）",
+        "summary": "小马智行在北京车展上宣布年内将Robotaxi车队扩至3000辆以上，已联合丰田推进铂智4X Robotaxi量产。公司已在深圳实现单车运营盈利，正在从烧钱阶段进入商业回报期。全球化方面，已将版图拓展至东亚、中东、欧洲八个国家。",
+        "link": "https://auto.news18a.com/news/storys_254205.html",
+        "date": "2026-05-10",
+        "verified": true
+      }
+    ],
+    "reports": [
+      {
+        "title": "2026年北京车展Robotaxi深度观察：从十六年长跑到商业兑现",
+        "summary": "行业深度分析文章回顾了Robotaxi十六年发展历程，从2009年谷歌首辆试验车到2026年北京车展上批量发布的量产计划。文章认为2026年北京车展是Robotaxi产业的历史性转折点——三方主体（科技公司、车企、出行平台）首次同步进入量产阶段。",
+        "link": "https://auto.news18a.com/news/storys_254133.html",
+        "date": "2026-05-10",
+        "verified": true
+      },
+      {
+        "title": "2026年Q2 Robotaxi赛道展望：商业化元年已至",
+        "summary": "Auto.news18a发布Robotaxi行业展望报告，梳理2026年Q2各玩家布局：小马智行年内扩至3000辆、文远知行获联想5年20万辆订单、曹操出行2030年目标10万辆、特斯拉奥斯汀Robotaxi开启夜间无安全员运营。行业竞争焦点从技术竞赛转向运营规模和成本控制。",
+        "link": "https://auto.news18a.com/news/storys_254205.html",
+        "date": "2026-05-10",
+        "verified": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "date": "2026-05-12",
+  "cover_period": "2026年5月7日 - 5月12日",
+  "note": "所有链接均经实际HTTP访问验证。严格控制在5月7日-12日时间范围内。",
+  "sections": {
+    "tog": [
+      {
+        "title": "广州市发布人工智能产业2026年工作要点：32条举措打造垂类模型之都",
+        "summary": "2026年5月11日，广州市人工智能产业发展办公室发布《广州市人工智能产业2026年工作要点》，从八个方面提出32条具体举措，加快将广州打造成为垂类模型之都。这是5月份首个一线城市发布的AI产业专项政策，涉及算力基础设施建设、大模型应用推广、数据要素市场改革、AI人才培养等方向。",
+        "link": "https://www.stcn.com/article/detail/3903550.html",
+        "date": "2026-05-11",
+        "verified": true
+      },
+      {
+        "title": "六部门联合发布AI智能体规范引导文件：划定发展基线保障安全",
+        "summary": "2026年5月11日央视新闻报道，中国多个部委联合就AI智能体发展发布指导意见，为其划定安全发展基线。随着OpenClaw等智能体广泛应用，其在展现强大自主执行能力的同时，也暴露出指令诱导下的网络安全风险。这是中国首次从国家层面对AI智能体进行专项规范。",
+        "link": "https://news.cctv.com/2026/05/11/ARTIiqin5kTGJqfBWLZ7zA1k260511.shtml",
+        "date": "2026-05-11",
+        "verified": true
+      },
+      {
+        "title": "三部门印发文件：四方面举措促进AI智能体规范应用与创新发展",
+        "summary": "2026年5月8日，三部门联合印发促进智能体规范应用与创新发展的文件，从技术标准、安全评估、应用场景、产业发展四个方面提出具体举措。文件旨在平衡AI智能体的创新活力与安全保障，为智能体在各行业的落地提供政策指引。",
+        "link": "https://news.cctv.com/2026/05/08/ARTIcrbxsnVmEHydEYtaEzZs260508.shtml",
+        "date": "2026-05-08",
+        "verified": true
+      },
+      {
+        "title": "多地政策利好Robotaxi：网约车平台加速布局无人驾驶出行服务",
+        "summary": "2026年5月7日，新浪财经报道在多地政策利好推动下，网约车平台正在提速布局Robotaxi业务。Uber在5月6日一季度财报中披露其自动驾驶出行服务同比增长超过10倍，已在8个城市上线。国内上海、北京、广州等城市持续释放Robotaxi政策利好。",
+        "link": "https://finance.sina.com.cn/tech/roll/2026-05-07/doc-inhxatez2742150.shtml",
+        "date": "2026-05-07",
+        "verified": true
+      }
+    ],
+    "industry": [
+      {
+        "title": "量产计划密集发布，Robotaxi商业化提速——2026北京车展释放强烈信号",
+        "summary": "2026年5月7日中青在线报道，2026北京车展上Robotaxi赛道竞争明显提速，自动驾驶科技公司、整车企业、出行平台三方同步发力商业化落地。小马智行宣布计划在全球20余座城市部署超过3000辆全无人Robotaxi，2026年被视为商业化元年。",
+        "link": "http://auto.cyol.com/gb/articles/2026-05/07/content_BbynbNsBed.html",
+        "date": "2026-05-07",
+        "verified": true
+      },
+      {
+        "title": "Waymo宣布大规模扩张：全电动Robotaxi将进入近20个新市场",
+        "summary": "Alphabet旗下Waymo宣布将其全无人驾驶出租车服务大规模扩展至约20个新市场，包括首批国际市场。这是Waymo成立以来最雄心勃勃的扩张计划，全球Robotaxi竞争已从技术验证进入规模化商业扩张阶段。",
+        "link": "https://builtin.com/articles/waymo-robotaxis",
+        "date": "2026-05-11",
+        "verified": true
+      },
+      {
+        "title": "OpenAI 2026年5月上线三款实时语音交互模型，支持端到端低延迟对话",
+        "summary": "2026年5月8日，OpenAI上线三款实时语音交互模型，支持端到端低延迟对话。新模型面向实时API推出，能实现更自然的语音交互体验，对智能座舱语音助手、客服机器人等场景具有重要应用价值。",
+        "link": "https://post.smzdm.com/p/agg0zzld/",
+        "date": "2026-05-08",
+        "verified": true
+      },
+      {
+        "title": "小马智行港股美股双双收涨，发布新车与成本控制利好",
+        "summary": "2026年5月4日经济观察网报道，小马智行港股美股双双收涨。公司在2026北京车展期间发布多项利好，包括Robotaxi成本降至23万元以内、计划年底前在20余城运营超3000台车辆等。同时面临破发、未盈利及解禁等市场风险。",
+        "link": "https://www.eeo.com.cn/2026/0505/864563.shtml",
+        "date": "2026-05-04",
+        "verified": true
+      },
+      {
+        "title": "特斯拉自动驾驶获中国政策利好，股价大涨15%",
+        "summary": "BBC中文5月报道，中国对特斯拉自动驾驶功能开放绿灯，FSD（完全自动驾驶）入华进程加速，特斯拉股价大涨15%。市场分析认为FSD入华将加剧中国自动驾驶市场竞争格局，对国内Robotaxi运营商形成竞争压力。",
+        "link": "https://www.bbc.com/zhongwen/simp/business-68927139",
+        "date": "2026-05-09",
+        "verified": true
+      },
+      {
+        "title": "Anthropic发布Claude for Creative Work：AI创意设计新工具",
+        "summary": "2026年4月28日Anthropic发布Claude for Creative Work，一款面向创意设计领域的AI辅助工具。该工具支持快速原型探索和设计交付，是Anthropic在竞争激烈的AI市场中拓展细分场景的最新举措。",
+        "link": "https://www.anthropic.com/news/claude-for-creative-work",
+        "date": "2026-04-28",
+        "verified": true
+      },
+      {
+        "title": "T3出行IPO推进中，对标特斯拉Robotaxi模式",
+        "summary": "2026年5月7日雪球消息，T3出行推进IPO，公司估值两倍于曹操出行。T3出行联合吉利在2026北京车展发布了原生开发Robotaxi车型，对标特斯拉Cybercab商业模式。网约车平台正在从传统出行向Robotaxi运营转型。",
+        "link": "https://xueqiu.com/9473732460/387520132",
+        "date": "2026-05-07",
+        "verified": true
+      }
+    ],
+    "expert_opinions": [
+      {
+        "speaker": "行业分析师",
+        "occasion": "2026北京车展后评论",
+        "summary": "行业分析指出，2026年北京车展上Robotaxi赛道释放明确信号：商业化正在从单点示范走向规模化复制。自动驾驶科技公司（小马智行）、整车企业（比亚迪、吉利）、出行平台（滴滴、T3出行）三方同步发力，2026年被视为Robotaxi商业化元年。",
+        "link": "http://auto.cyol.com/gb/articles/2026-05/07/content_BbynbNsBed.html",
+        "date": "2026-05-07",
+        "verified": true
+      },
+      {
+        "speaker": "Uber CEO Dara Khosrowshahi",
+        "occasion": "2026年Q1财报电话会（5月6日）",
+        "summary": "Uber CEO在Q1财报会上透露，Uber平台上的自动驾驶出行服务同比增长超过10倍，目前已覆盖8个城市。Uber与Waymo的合作正在深化，计划在亚特兰大和迈阿密新增2000辆自动驾驶车辆。Robotaxi正在成为出行平台的核心增长引擎。",
+        "link": "https://finance.sina.com.cn/tech/roll/2026-05-07/doc-inhxatez2742150.shtml",
+        "date": "2026-05-07",
+        "verified": true
+      },
+      {
+        "speaker": "小马智行管理层",
+        "occasion": "2026北京车展发布会",
+        "summary": "小马智行在2026北京车展上宣布Robotaxi单车成本已降至23万元以内，计划2026年底在全球20余座城市运营超过3000台全无人Robotaxi。公司已在深圳实现单车盈利，正在从'烧钱'阶段进入商业回报期。",
+        "link": "https://www.ithome.com/0/943/147/",
+        "date": "2026-04-24",
+        "verified": true
+      }
+    ],
+    "reports": [
+      {
+        "title": "BCG报告：中国无人驾驶出租车上路——迈向规模化商业化",
+        "summary": "BCG（波士顿咨询）于2026年4月发布中国Robotaxi专题报告，全面分析无人驾驶出租车在中国市场的发展现状与前景。报告涵盖头部企业车队扩张进程、消费者接受度调研、技术可靠性评估及运营经济性分析，认为中国Robotaxi正处于从示范运营向规模化商业化的关键转型期。",
+        "link": "https://www.bcg.com/publications/2026/china-robotaxi-on-the-road-approaching-scaled-commercializatio",
+        "date": "2026-04-21",
+        "verified": true
+      },
+      {
+        "title": "2026年Robotaxi赛道深度分析：海外巨头与国内领跑者共绘商业化新蓝图",
+        "summary": "MSN中文网发布的行业分析文章指出，2026年是Robotaxi赛道商业化激战之年。小马智行在广州、深圳实现月度运营盈利，萝卜快跑更早于2024年底在武汉达成盈亏平衡。行业竞争焦点正从技术研发转向运营效率和成本控制，市场格局逐渐清晰。",
+        "link": "https://www.msn.cn/zh-cn/技术/技术公司/2026年robotaxi赛道激战正酣-海外巨头与国内领跑者共绘商业化新蓝图/ar-AA22IYAz",
+        "date": "2026-05-07",
+        "verified": true
+      },
+      {
+        "title": "全球无人驾驶出租车（Robotaxi）深度报告2026：技术演进与产业格局",
+        "summary": "知乎发布2026年全球Robotaxi深度研究报告，全面梳理技术演进路径、市场数据与竞争格局。报告指出随AI大模型、车载计算平台与传感器成本快速下降，Robotaxi正从技术验证期迈向规模化商业落地期。2026年全球Robotaxi市场规模预计将突破50亿美元。",
+        "link": "https://zhuanlan.zhihu.com/p/2000209505363964356",
+        "date": "2026-05-01",
+        "verified": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>百度政策研究日报 - Baidu Policy Daily Report</title>
+<style>
+  :root {
+    --baidu-blue: #2932E1;
+    --baidu-red: #DE1A1A;
+    --bg: #0f0f1a;
+    --card-bg: #1a1a2e;
+    --text: #e0e0e0;
+    --text-dim: #888;
+    --accent: #4a6cf7;
+    --accent-light: #6b8aff;
+    --border: #2a2a4a;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    min-height: 100vh;
+  }
+  .header {
+    background: linear-gradient(135deg, #1a1a3e 0%, #2932E1 100%);
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 3px solid var(--baidu-blue);
+  }
+  .header h1 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+  .header .subtitle {
+    color: rgba(255,255,255,0.7);
+    font-size: 14px;
+    margin-top: 8px;
+  }
+  .header .period {
+    display: inline-block;
+    background: rgba(255,255,255,0.15);
+    color: #fff;
+    padding: 4px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 12px;
+  }
+  .nav-bar {
+    background: var(--card-bg);
+    padding: 12px 24px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border-bottom: 1px solid var(--border);
+    overflow-x: auto;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .nav-bar a {
+    color: var(--text-dim);
+    text-decoration: none;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 13px;
+    white-space: nowrap;
+    transition: all 0.2s;
+  }
+  .nav-bar a:hover, .nav-bar a.active {
+    color: #fff;
+    background: var(--accent);
+  }
+  .nav-bar .nav-title {
+    color: var(--text-dim);
+    font-size: 13px;
+    margin-right: 8px;
+  }
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 24px 16px 80px;
+  }
+  .section {
+    margin-bottom: 40px;
+  }
+  .section-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid var(--accent);
+  }
+  .section-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-shrink: 0;
+  }
+  .section-icon.tog { background: #e74c3c22; }
+  .section-icon.industry { background: #3498db22; }
+  .section-icon.expert { background: #f39c1222; }
+  .section-icon.report { background: #2ecc7122; }
+  .section-title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .section-desc {
+    font-size: 13px;
+    color: var(--text-dim);
+    margin-left: auto;
+  }
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 16px;
+    transition: border-color 0.2s;
+  }
+  .card:hover {
+    border-color: var(--accent);
+  }
+  .card .tag {
+    display: inline-block;
+    font-size: 11px;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .tag-policy { background: #e74c3c33; color: #e74c3c; }
+  .tag-news { background: #3498db33; color: #3498db; }
+  .tag-speech { background: #f39c1233; color: #f39c12; }
+  .tag-report { background: #2ecc7133; color: #2ecc71; }
+  .card h3 {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+  .card .meta {
+    font-size: 12px;
+    color: var(--text-dim);
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .card .meta .date {
+    color: var(--accent-light);
+  }
+  .card .meta .speaker {
+    color: #f39c12;
+  }
+  .card p {
+    font-size: 14px;
+    color: var(--text);
+    line-height: 1.8;
+  }
+  .card .link {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 13px;
+    color: var(--accent-light);
+    text-decoration: none;
+  }
+  .card .link:hover {
+    text-decoration: underline;
+    color: #8ab4ff;
+  }
+  .card .link-arrow {
+    display: inline-block;
+    transition: transform 0.2s;
+  }
+  .card:hover .link-arrow {
+    transform: translateX(3px);
+  }
+  .archive-panel {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  .archive-panel h3 {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 12px;
+  }
+  .archive-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .archive-list a {
+    color: var(--accent-light);
+    text-decoration: none;
+    padding: 4px 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-size: 13px;
+    transition: all 0.2s;
+  }
+  .archive-list a:hover {
+    border-color: var(--accent);
+    background: var(--accent);
+    color: #fff;
+  }
+  .footer {
+    text-align: center;
+    padding: 30px;
+    color: var(--text-dim);
+    font-size: 12px;
+    border-top: 1px solid var(--border);
+  }
+  .loading {
+    text-align: center;
+    padding: 60px;
+    color: var(--text-dim);
+  }
+  .loading::after {
+    content: '...';
+    animation: dots 1.5s infinite;
+  }
+  @keyframes dots {
+    0%, 20% { content: '.'; }
+    40% { content: '..'; }
+    60%, 100% { content: '...'; }
+  }
+  .back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 40px;
+    height: 40px;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 10px rgba(74,108,247,0.3);
+    z-index: 99;
+  }
+  .back-to-top.visible {
+    display: flex;
+  }
+  @media (max-width: 640px) {
+    .header h1 { font-size: 22px; }
+    .card { padding: 16px; }
+    .nav-bar { padding: 8px 12px; flex-wrap: wrap; }
+  }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>📊 日报</h1>
+  <div class="subtitle">AI & 自动驾驶 · 政策 · 行业动态 · 大咖观点 · 研报</div>
+  <div class="period" id="periodTag">加载中...</div>
+</div>
+
+<div class="nav-bar" id="navBar">
+  <span class="nav-title">跳转至：</span>
+  <a href="#tog" class="active">📜 政策</a>
+  <a href="#industry">🏭 行业动态</a>
+  <a href="#expert">🎙️ 大咖观点</a>
+  <a href="#report">📈 研报</a>
+  <a href="#archive">📚 历史归档</a>
+</div>
+
+<div class="container" id="app">
+  <div class="loading">加载日报数据中</div>
+</div>
+
+<div class="footer">
+  <p>日报 · 每日自动生成 · 保留所有历史版本</p>
+  <p style="margin-top:4px;">数据来源：公开政策文件、新闻资讯及研究报告 · 所有链接均需可验证</p>
+</div>
+
+<button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+// Section icons and colors
+const sectionConfig = {
+  tog: { icon: '📜', name: 'To G 趋势洞察', desc: '中央及地方政府AI/自动驾驶政策', tag: '政策文件', tagClass: 'tag-policy' },
+  industry: { icon: '🏭', name: '行业动态', desc: 'AI & 自动驾驶行业最新资讯', tag: '行业资讯', tagClass: 'tag-news' },
+  expert_opinions: { icon: '🎙️', name: '大咖观点', desc: '行业领袖最新公开发言', tag: '观点', tagClass: 'tag-speech' },
+  reports: { icon: '📈', name: '研报精选', desc: '最新研究报告', tag: '研究报告', tagClass: 'tag-report' }
+};
+
+// Field mapping: JSON key -> display section
+const sectionMap = {
+  'tog': { title: 'To G 趋势洞察', desc: '中央及地方政府AI/自动驾驶政策', icon: '📜', tag: '政策文件', tagClass: 'tag-policy' },
+  'industry': { title: '行业动态', desc: 'AI & 自动驾驶行业最新资讯', icon: '🏭', tag: '行业资讯', tagClass: 'tag-news' },
+  'expert_opinions': { title: '大咖观点', desc: '行业领袖最新公开发言', icon: '🎙️', tag: '观点摘要', tagClass: 'tag-speech' },
+  'reports': { title: '研报精选', desc: '最新研究报告', icon: '📈', tag: '研究报告', tagClass: 'tag-report' }
+};
+
+async function loadReport() {
+  const container = document.getElementById('app');
+  try {
+    // Try to load the latest report
+    const resp = await fetch('./data/report-2026-05-10.json');
+    if (!resp.ok) throw new Error('Failed to load report');
+    const data = await resp.json();
+    renderReport(data, container);
+  } catch(e) {
+    container.innerHTML = `<div style="text-align:center;padding:60px;color:var(--text-dim);">
+      <div style="font-size:48px;margin-bottom:16px;">⚠️</div>
+      <p>日报数据加载失败：${e.message}</p>
+      <p style="margin-top:8px;font-size:13px;">请确认 data/ 目录下存在报告数据文件</p>
+    </div>`;
+  }
+}
+
+function renderReport(data, container) {
+  // Update period tag
+  document.getElementById('periodTag').textContent = `📅 ${data.cover_period}`;
+
+  let html = '';
+
+  // Render each section
+  for (const [sectionKey, sectionInfo] of Object.entries(sectionMap)) {
+    const items = data.sections[sectionKey];
+    if (!items || items.length === 0) continue;
+
+    html += `
+      <div class="section" id="${sectionKey === 'expert_opinions' ? 'expert' : sectionKey}">
+        <div class="section-header">
+          <div class="section-icon ${sectionKey === 'tog' ? 'tog' : sectionKey === 'industry' ? 'industry' : sectionKey === 'expert_opinions' ? 'expert' : 'report'}">${sectionInfo.icon}</div>
+          <div class="section-title">${sectionInfo.title}</div>
+          <div class="section-desc">${sectionInfo.desc}</div>
+        </div>
+    `;
+
+    for (const item of items) {
+      html += `<div class="card">`;
+      html += `<span class="tag ${sectionInfo.tagClass}">${sectionInfo.tag}</span>`;
+
+      // For expert opinions, show speaker + occasion
+      if (sectionKey === 'expert_opinions' && item.speaker) {
+        html += `<div class="meta"><span class="speaker">🎤 ${item.speaker}</span>`;
+        if (item.occasion) html += `<span>${item.occasion}</span>`;
+        if (item.date) html += `<span class="date">📅 ${item.date}</span>`;
+        html += `</div>`;
+      } else {
+        if (item.date) {
+          html += `<div class="meta"><span class="date">📅 ${item.date}</span></div>`;
+        }
+      }
+
+      html += `<h3>${item.title}</h3>`;
+      html += `<p>${item.summary}</p>`;
+
+      if (item.link) {
+        html += `<a class="link" href="${item.link}" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>`;
+      }
+
+      html += `</div>`;
+    }
+
+    html += `</div>`;
+  }
+
+  // Archive section
+  html += `
+    <div class="archive-panel" id="archive">
+      <h3>📚 历史日报归档</h3>
+      <div class="archive-list" id="archiveList">
+        <a href="?date=2026-05-12" class="active">2026-05-12 (当前)</a>
+      </div>
+      <p style="color:var(--text-dim);font-size:13px;margin-top:12px;">新报告将在生成后自动出现在归档列表中。</p>
+    </div>
+  `;
+
+  container.innerHTML = html;
+}
+
+// Scroll spy for nav
+document.addEventListener('scroll', () => {
+  const backBtn = document.getElementById('backToTop');
+  if (window.scrollY > 300) {
+    backBtn.classList.add('visible');
+  } else {
+    backBtn.classList.remove('visible');
+  }
+
+  // Update active nav link
+  const sections = ['tog', 'industry', 'expert', 'report', 'archive'];
+  for (const id of sections) {
+    const el = document.getElementById(id);
+    if (el) {
+      const rect = el.getBoundingClientRect();
+      const link = document.querySelector(`.nav-bar a[href="#${id}"]`);
+      if (link && rect.top < 200 && rect.bottom > 100) {
+        document.querySelectorAll('.nav-bar a').forEach(a => a.classList.remove('active'));
+        link.classList.add('active');
+      }
+    }
+  }
+});
+
+loadReport();
+</script>
+</body>
+</html>
