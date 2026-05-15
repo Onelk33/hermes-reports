@@ -8,20 +8,40 @@ REPO = 'hermes-reports'
 
 os.chdir('/home/onelk/reports')
 
-# Step 0: Update index.html with latest report list
-import re, glob
+# Step 0: Update index.html with latest report data
+import re, glob, json
+
+# Find the latest report
 report_files = sorted(glob.glob('data/report-*.json'), reverse=True)
 dates = [f.replace('data/report-', '').replace('.json', '') for f in report_files]
+
+# Read the latest report data
+with open(report_files[0]) as f:
+    latest_data = json.load(f)
+latest_json = json.dumps(latest_data, ensure_ascii=False)
+
+# Read and update index.html
 with open('index.html', 'r') as f:
     html = f.read()
+
+# Replace the REPORT_DATA constant
+html = re.sub(
+    r'const REPORT_DATA = \{.*?\};',
+    f'const REPORT_DATA = {latest_json};',
+    html,
+    flags=re.DOTALL
+)
+
+# Replace the dates array
 html = re.sub(
     r"const dates = \[[^\]]+\]",
     "const dates = [{}]".format(", ".join(f"'{d}'" for d in dates)),
     html
 )
+
 with open('index.html', 'w') as f:
     f.write(html)
-print(f"✅ Updated index.html with {len(dates)} reports: {', '.join(dates)}")
+print(f"✅ Updated index.html with latest report ({dates[0]}), {len(dates)} total")
 
 # Step 1: Commit and push
 subprocess.run(['git', 'add', '-A'], check=True, capture_output=True)
