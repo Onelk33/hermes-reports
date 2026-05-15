@@ -3,266 +3,49 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>百度政策研究日报 - Baidu Policy Daily Report</title>
+<title>日报 - AI & 自动驾驶</title>
 <style>
-  :root {
-    --baidu-blue: #2932E1;
-    --baidu-red: #DE1A1A;
-    --bg: #0f0f1a;
-    --card-bg: #1a1a2e;
-    --text: #e0e0e0;
-    --text-dim: #888;
-    --accent: #4a6cf7;
-    --accent-light: #6b8aff;
-    --border: #2a2a4a;
-  }
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.7;
-    min-height: 100vh;
-  }
-  .header {
-    background: linear-gradient(135deg, #1a1a3e 0%, #2932E1 100%);
-    padding: 40px 20px;
-    text-align: center;
-    border-bottom: 3px solid var(--baidu-blue);
-  }
-  .header h1 {
-    font-size: 28px;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 2px;
-  }
-  .header .subtitle {
-    color: rgba(255,255,255,0.7);
-    font-size: 14px;
-    margin-top: 8px;
-  }
-  .header .period {
-    display: inline-block;
-    background: rgba(255,255,255,0.15);
-    color: #fff;
-    padding: 4px 16px;
-    border-radius: 20px;
-    font-size: 14px;
-    margin-top: 12px;
-  }
-  .nav-bar {
-    background: var(--card-bg);
-    padding: 12px 24px;
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    border-bottom: 1px solid var(--border);
-    overflow-x: auto;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-  }
-  .nav-bar a {
-    color: var(--text-dim);
-    text-decoration: none;
-    padding: 6px 14px;
-    border-radius: 6px;
-    font-size: 13px;
-    white-space: nowrap;
-    transition: all 0.2s;
-  }
-  .nav-bar a:hover, .nav-bar a.active {
-    color: #fff;
-    background: var(--accent);
-  }
-  .nav-bar .nav-title {
-    color: var(--text-dim);
-    font-size: 13px;
-    margin-right: 8px;
-  }
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-    padding: 24px 16px 80px;
-  }
-  .section {
-    margin-bottom: 40px;
-  }
-  .section-header {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 20px;
-    padding-bottom: 12px;
-    border-bottom: 2px solid var(--accent);
-  }
-  .section-icon {
-    width: 36px;
-    height: 36px;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 18px;
-    flex-shrink: 0;
-  }
-  .section-icon.tog { background: #e74c3c22; }
-  .section-icon.industry { background: #3498db22; }
-  .section-icon.expert { background: #f39c1222; }
-  .section-icon.report { background: #2ecc7122; }
-  .section-title {
-    font-size: 20px;
-    font-weight: 700;
-    color: #fff;
-  }
-  .section-desc {
-    font-size: 13px;
-    color: var(--text-dim);
-    margin-left: auto;
-  }
-  .card {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 16px;
-    transition: border-color 0.2s;
-  }
-  .card:hover {
-    border-color: var(--accent);
-  }
-  .card .tag {
-    display: inline-block;
-    font-size: 11px;
-    padding: 2px 8px;
-    border-radius: 4px;
-    margin-bottom: 8px;
-  }
-  .tag-policy { background: #e74c3c33; color: #e74c3c; }
-  .tag-news { background: #3498db33; color: #3498db; }
-  .tag-speech { background: #f39c1233; color: #f39c12; }
-  .tag-report { background: #2ecc7133; color: #2ecc71; }
-  .card h3 {
-    font-size: 16px;
-    color: #fff;
-    margin-bottom: 8px;
-    line-height: 1.5;
-  }
-  .card .meta {
-    font-size: 12px;
-    color: var(--text-dim);
-    margin-bottom: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-  }
-  .card .meta .date {
-    color: var(--accent-light);
-  }
-  .card .meta .speaker {
-    color: #f39c12;
-  }
-  .card p {
-    font-size: 14px;
-    color: var(--text);
-    line-height: 1.8;
-  }
-  .card .link {
-    display: inline-block;
-    margin-top: 10px;
-    font-size: 13px;
-    color: var(--accent-light);
-    text-decoration: none;
-  }
-  .card .link:hover {
-    text-decoration: underline;
-    color: #8ab4ff;
-  }
-  .card .link-arrow {
-    display: inline-block;
-    transition: transform 0.2s;
-  }
-  .card:hover .link-arrow {
-    transform: translateX(3px);
-  }
-  .archive-panel {
-    background: var(--card-bg);
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 40px;
-  }
-  .archive-panel h3 {
-    font-size: 16px;
-    color: #fff;
-    margin-bottom: 12px;
-  }
-  .archive-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-  .archive-list a {
-    color: var(--accent-light);
-    text-decoration: none;
-    padding: 4px 12px;
-    border: 1px solid var(--border);
-    border-radius: 6px;
-    font-size: 13px;
-    transition: all 0.2s;
-  }
-  .archive-list a:hover {
-    border-color: var(--accent);
-    background: var(--accent);
-    color: #fff;
-  }
-  .footer {
-    text-align: center;
-    padding: 30px;
-    color: var(--text-dim);
-    font-size: 12px;
-    border-top: 1px solid var(--border);
-  }
-  .loading {
-    text-align: center;
-    padding: 60px;
-    color: var(--text-dim);
-  }
-  .loading::after {
-    content: '...';
-    animation: dots 1.5s infinite;
-  }
-  @keyframes dots {
-    0%, 20% { content: '.'; }
-    40% { content: '..'; }
-    60%, 100% { content: '...'; }
-  }
-  .back-to-top {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    width: 40px;
-    height: 40px;
-    background: var(--accent);
-    color: #fff;
-    border: none;
-    border-radius: 50%;
-    cursor: pointer;
-    font-size: 18px;
-    display: none;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 2px 10px rgba(74,108,247,0.3);
-    z-index: 99;
-  }
-  .back-to-top.visible {
-    display: flex;
-  }
-  @media (max-width: 640px) {
-    .header h1 { font-size: 22px; }
-    .card { padding: 16px; }
-    .nav-bar { padding: 8px 12px; flex-wrap: wrap; }
-  }
+:root{--bg:#0f0f1a;--card-bg:#1a1a2e;--text:#e0e0e0;--text-dim:#888;--accent:#4a6cf7;--border:#2a2a4a}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.7;min-height:100vh}
+.header{background:linear-gradient(135deg,#1a1a3e,#2932E1);padding:40px 20px;text-align:center;border-bottom:3px solid #2932E1}
+.header h1{font-size:28px;font-weight:700;color:#fff;letter-spacing:2px}
+.header .subtitle{color:rgba(255,255,255,0.7);font-size:14px;margin-top:8px}
+.header .period{display:inline-block;background:rgba(255,255,255,0.15);color:#fff;padding:4px 16px;border-radius:20px;font-size:14px;margin-top:12px}
+.nav-bar{background:var(--card-bg);padding:12px 24px;display:flex;gap:8px;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
+.nav-bar a{color:var(--text-dim);text-decoration:none;padding:6px 14px;border-radius:6px;font-size:13px;white-space:nowrap;transition:all 0.2s}
+.nav-bar a:hover{color:#fff;background:var(--accent)}
+.container{max-width:960px;margin:0 auto;padding:24px 16px 80px}
+.section{margin-bottom:40px}
+.section-header{display:flex;align-items:center;gap:12px;margin-bottom:20px;padding-bottom:12px;border-bottom:2px solid var(--accent)}
+.section-icon{width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.section-icon.policy{background:#e74c3c22}
+.section-icon.news{background:#3498db22}
+.section-icon.speech{background:#f39c1222}
+.section-icon.rpt{background:#2ecc7122}
+.section-title{font-size:20px;font-weight:700;color:#fff}
+.section-desc{font-size:13px;color:var(--text-dim);margin-left:auto}
+.card{background:var(--card-bg);border:1px solid var(--border);border-radius:10px;padding:20px;margin-bottom:16px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent)}
+.card .tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:4px;margin-bottom:8px}
+.tag-policy{background:#e74c3c33;color:#e74c3c}
+.tag-news{background:#3498db33;color:#3498db}
+.tag-speech{background:#f39c1233;color:#f39c12}
+.tag-report{background:#2ecc7133;color:#2ecc71}
+.card h3{font-size:16px;color:#fff;margin-bottom:8px;line-height:1.5}
+.card .meta{font-size:12px;color:var(--text-dim);margin-bottom:10px;display:flex;flex-wrap:wrap;gap:12px}
+.card .meta .date{color:#6b8aff}
+.card .meta .speaker{color:#f39c12}
+.card p{font-size:14px;color:var(--text);line-height:1.8}
+.card .link{display:inline-block;margin-top:10px;font-size:13px;color:#6b8aff;text-decoration:none}
+.card .link:hover{text-decoration:underline}
+.archive-panel{background:var(--card-bg);border:1px solid var(--border);border-radius:10px;padding:20px;margin-top:40px}
+.archive-panel h3{font-size:16px;color:#fff;margin-bottom:12px}
+.archive-list{display:flex;flex-wrap:wrap;gap:8px}
+.archive-list a{color:#6b8aff;text-decoration:none;padding:4px 12px;border:1px solid var(--border);border-radius:6px;font-size:13px;transition:all 0.2s}
+.archive-list a:hover{border-color:var(--accent);background:var(--accent);color:#fff}
+.footer{text-align:center;padding:30px;color:var(--text-dim);font-size:12px;border-top:1px solid var(--border)}
+@media(max-width:640px){.header h1{font-size:22px}.card{padding:16px}}
 </style>
 </head>
 <body>
@@ -270,153 +53,187 @@
 <div class="header">
   <h1>📊 日报</h1>
   <div class="subtitle">AI & 自动驾驶 · 政策 · 行业动态 · 大咖观点 · 研报</div>
-  <div class="period" id="periodTag">加载中...</div>
-  <div style="margin-top:8px;font-size:12px;color:rgba(255,255,255,0.5);">
-    公开访问：<a href="https://onelk33.github.io/hermes-reports/" target="_blank" style="color:#8ab4ff;">onelk33.github.io/hermes-reports/</a>
-  </div>
+  <div class="period">📅 2026年5月11日 - 5月15日</div>
 </div>
 
-<div class="nav-bar" id="navBar">
-  <span class="nav-title">跳转至：</span>
-  <a href="#tog" class="active">📜 政策</a>
+<div class="nav-bar">
+  <a href="#tog" style="color:#fff;background:var(--accent)">📜 政策</a>
   <a href="#industry">🏭 行业动态</a>
   <a href="#expert">🎙️ 大咖观点</a>
   <a href="#report">📈 研报</a>
   <a href="#archive">📚 历史归档</a>
 </div>
 
-<div class="container" id="app">
-  <div class="loading">加载日报数据中</div>
+<div class="container">
+
+<div class="section" id="tog">
+<div class="section-header">
+<div class="section-icon policy">📜</div>
+<div class="section-title">To G 趋势洞察</div>
+<div class="section-desc">AI/自动驾驶政策</div>
+</div>
+
+<div class="card">
+<span class="tag tag-policy">政策文件</span>
+<div class="meta"><span class="date">📅 2026-05-14</span></div>
+<h3>特朗普时隔九年再度访华，中美签署多项合作，Nvidia黄仁勋随行引关注</h3>
+<p>2026年5月12日，美国总统特朗普启程访华，5月14日与习近平主席在北京会晤。Nvidia创始人兼CEO黄仁勋出现在人民大会堂欢迎仪式现场，引发市场对AI芯片出口管制松动的猜测。特朗普访华期间，两国企业签署34个合作项目，金额达2535亿美元，覆盖AI、半导体、新能源等领域。</p>
+<a class="link" href="https://www.news.cn/politics/leaders/20260514/26f96140b5f04ba8b2cbc3670778d1f9/c.html" target="_blank">🔗 阅读原文 →</a>
+</div>
+
+<div class="card">
+<span class="tag tag-policy">政策文件</span>
+<div class="meta"><span class="date">📅 2026-05-11</span></div>
+<h3>Sam Altman再度赴国会听证：承认中美AI差距缩小，呼吁美国加大投入</h3>
+<p>2026年5月，OpenAI CEO Sam Altman再度走进美国国会山，就AI监管、全球竞争、产业基础设施等议题作证。他点名DeepSeek表示中国AI能力正在快速追赶，警告美国的领先优势不会维持太久，呼吁国会加大AI基础设施投入并建立平衡的监管框架。</p>
+<a class="link" href="https://www.163.com/tech/article/JV4JAQT800098IEO.html" target="_blank">🔗 阅读原文 →</a>
+</div>
+
+<div class="card">
+<span class="tag tag-policy">政策文件</span>
+<div class="meta"><span class="date">📅 2026-05-13</span></div>
+<h3>欧盟AI法案倒计时：2026年8月全面生效，多家企业呼吁推迟实施</h3>
+<p>欧盟AI法案将于2026年8月2日全面生效，这是全球首部全面监管AI的法律框架。欧洲企业纷纷呼吁推迟实施，认为过度监管将削弱欧洲AI竞争力。法案对不同风险等级AI系统实施分层监管，高风险AI系统需满足严格合规要求。</p>
+<a class="link" href="https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai" target="_blank">🔗 阅读原文 →</a>
+</div>
+</div>
+
+<div class="section" id="industry">
+<div class="section-header">
+<div class="section-icon news">🏭</div>
+<div class="section-title">行业动态</div>
+<div class="section-desc">AI &amp; 自动驾驶行业资讯</div>
+</div>
+
+<div class="card">
+<span class="tag tag-news">行业资讯</span>
+<div class="meta"><span class="date">📅 2026-05-12</span></div>
+<h3>Robotaxi再遇安全考验：Waymo因积水风险召回近3800辆自动驾驶出租车</h3>
+<p>2026年5月12日，NHTSA披露Waymo自愿召回3791辆第五代及第六代自动驾驶出租车。召回原因是软件缺陷可能导致车辆驶入被积水淹没的路段，这是Waymo首次针对第六代自动驾驶系统进行召回。</p>
+<a class="link" href="https://finance.stockstar.com/IG2026051200034172.shtml" target="_blank">🔗 阅读原文 →</a>
+</div>
+
+<div class="card">
+<span class="tag tag-news">行业资讯</span>
+<div class="meta"><span class="date">📅 2026-05-13</span></div>
+<h3>Google举办The Android Show 2026：Gemini Intelligence深度整合Android生态</h3>
+<p>2026年5月13日，Google在I/O 2026前举办The Android Show，重点发布Gemini Intelligence AI层，将AI深度整合至Android操作系统。同时推出Googlebook新型AI笔记本电脑和Android 17创作者功能升级。Gemini Intelligence可跨应用执行复杂任务，标志着AI从语音助手升级为操作系统级智能体。</p>
+<a class="link" href="https://ai.ettoday.net/news/3164887" target="_blank">🔗 阅读原文 →</a>
+</div>
+
+<div class="card">
+<span class="tag tag-news">行业资讯</span>
+<div class="meta"><span class="date">📅 2026-05-14</span></div>
+<h3>Anthropic十款金融AI智能体冲击华尔街，分析称将重塑金融服务工作流</h3>
+<p>2026年5月14日，新浪发表深度分析解读Anthropic于5月5日发布的10款金融AI Agent模板，覆盖投行pitchbook制作、KYC审查、财务模型更新等场景，深度集成Microsoft 365，对接Moody's、FactSet等数据源，预计可提升效率35-85%。摩根大通CEO与Anthropic CEO同台发布。</p>
+<a class="link" href="https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayu8893843.shtml" target="_blank">🔗 阅读原文 →</a>
+</div>
+
+<div class="card">
+<span class="tag tag-news">行业资讯</span>
+<div class="meta"><span class="date">📅 2026-05-11</span></div>
+<h3>OpenAI发布三款实时语音模型：GPT-Realtime-2首现GPT-5级推理能力</h3>
+<p>OpenAI发布三款实时语音模型：GPT-Realtime-2（首个具备GPT-5级推理能力的语音模型）、GPT-Realtime-Translate（覆盖70+输入语言的实时翻译）、GPT-Realtime-Whisper（流式语音转文字），配备128K上下文窗口。</p>
+<a class="link" href="https://smhn.info/202605-openai-gpt-realtime-2-voice-ai-announcement" target="_blank">🔗 阅读原文 →</a>
+</div>
+
+<div class="card">
+<span class="tag tag-news">行业资讯</span>
+<div class="meta"><span class="date">📅 2026-05-11</span></div>
+<h3>xAI Grok 4.3低价上线，同时推出AI语音克隆套件</h3>
+<p>xAI正式推出Grok 4.3模型，以激进低价策略进入市场，同时发布全新AI语音克隆套件。马斯克宣称Grok将在2026年底开始制作电影。</p>
+<a class="link" href="https://www.dataworldbank.net/2026/05/01/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite/" target="_blank">🔗 阅读原文 →</a>
+</div>
+
+<div class="card">
+<span class="tag tag-news">行业资讯</span>
+<div class="meta"><span class="date">📅 2026-05-11</span></div>
+<h3>Waymo伦敦测试持续引发关注：无人车凌晨4点困在死巷吵醒居民</h3>
+<p>Metro报道Waymo自动驾驶汽车在伦敦测试中多次于凌晨4点被困在死胡同，频繁进出吵醒附近居民。Waymo计划于2026年9月在伦敦正式推出Robotaxi服务。</p>
+<a class="link" href="https://metro.co.uk/2026/05/11/waymo-driverless-cars-keeps-waking-londoners-4am-getting-stuck-dead-end-street-28326146/" target="_blank">🔗 阅读原文 →</a>
+</div>
+
+<div class="card">
+<span class="tag tag-news">行业资讯</span>
+<div class="meta"><span class="date">📅 2026-05-11</span></div>
+<h3>Anthropic工程师发文：HTML才是AI终极语言，引发技术圈激烈辩论</h3>
+<p>Anthropic工程师发文称已彻底停止使用Markdown，认为HTML才是AI智能体时代的完美通信格式，在技术圈引发激烈讨论，反映了AI生成内容格式标准化的深层需求。</p>
+<a class="link" href="https://tonybai.com/2026/05/09/anthropic-engineer-say-html-is-the-ultimate-language-for-ai/" target="_blank">🔗 阅读原文 →</a>
+</div>
+</div>
+
+<div class="section" id="expert">
+<div class="section-header">
+<div class="section-icon speech">🎙️</div>
+<div class="section-title">大咖观点</div>
+<div class="section-desc">行业领袖公开发言</div>
+</div>
+
+<div class="card">
+<span class="tag tag-speech">观点摘要</span>
+<div class="meta"><span class="speaker">🎤 Sam Altman，OpenAI CEO</span><span>美国国会听证会（2026年5月）</span><span class="date">📅 2026-05-11</span></div>
+<h3>Altman承认中美AI差距缩小，呼吁加大投入</h3>
+<p>Altman在国会作证时点名DeepSeek等中国AI公司的进展，表示美国在AI领域的领先优势不会维持太久，呼吁国会加大AI基础设施投入并建立平衡的监管框架。</p>
+<a class="link" href="https://www.163.com/tech/article/JV4JAQT800098IEO.html" target="_blank">🔗 阅读原文 →</a>
+</div>
+
+<div class="card">
+<span class="tag tag-speech">观点摘要</span>
+<div class="meta"><span class="speaker">🎤 黄仁勋，Nvidia CEO</span><span>特朗普访华欢迎仪式</span><span class="date">📅 2026-05-14</span></div>
+<h3>黄仁勋现身特朗普访华欢迎仪式，释放AI芯片合作信号</h3>
+<p>黄仁勋出席在人民大会堂举行的特朗普访华欢迎仪式，市场解读为中美AI芯片合作释放积极信号。此前美国对华AI芯片出口管制持续收紧。</p>
+<a class="link" href="https://www.bbc.com/zhongwen/articles/ckgpdl5038ro/simp" target="_blank">🔗 阅读原文 →</a>
+</div>
+
+<div class="card">
+<span class="tag tag-speech">观点摘要</span>
+<div class="meta"><span class="speaker">🎤 Jamie Dimon，摩根大通CEO &amp; Dario Amodei，Anthropic CEO</span><span>Anthropic金融服务发布会</span><span class="date">📅 2026-05-14</span></div>
+<h3>Dimon与Amodei同台发布金融AI Agent</h3>
+<p>Dimon表示AI将从根本上改变金融服务行业的工作方式，从耗时的手工操作转向AI驱动的高效工作流。Amodei强调这些Agent在设计上注重安全性和可靠性。</p>
+<a class="link" href="https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayu8893843.shtml" target="_blank">🔗 阅读原文 →</a>
+</div>
+</div>
+
+<div class="section" id="report">
+<div class="section-header">
+<div class="section-icon rpt">📈</div>
+<div class="section-title">研报精选</div>
+<div class="section-desc">最新研究报告</div>
+</div>
+
+<div class="card">
+<span class="tag tag-report">研究报告</span>
+<div class="meta"><span class="date">📅 2026-05-11</span></div>
+<h3>2026年Q1全球AI Agent市场报告：企业级部署加速，金融与医疗领跑</h3>
+<p>2026年Q1全球AI Agent市场快速扩张，金融和医疗行业在Agent采用率上领先。Anthropic金融Agent模板发布标志着AI从辅助工具向生产级工作流核心的转变。</p>
+<a class="link" href="https://www.marketingscoop.com/ai-2/anthropic-financial-services-agents-what-the-10-claude-templates-mean-for-banks-insurers-and-asset-managers/" target="_blank">🔗 阅读原文 →</a>
+</div>
+
+<div class="card">
+<span class="tag tag-report">研究报告</span>
+<div class="meta"><span class="date">📅 2026-05-12</span></div>
+<h3>中信证券：Robotaxi商业化加速，建议关注自动驾驶产业链核心标的</h3>
+<p>中信证券研报指出2026年Robotaxi赛道进入商业化加速期，小马智行、滴滴、Waymo等头部玩家车队规模快速扩张。建议关注传感器、芯片、算法平台及出行运营平台。</p>
+<a class="link" href="https://www.fxbaogao.com/detail/5168466" target="_blank">🔗 阅读原文 →</a>
+</div>
+</div>
+
+<div class="archive-panel" id="archive">
+<h3>📚 历史日报归档</h3>
+<div class="archive-list">
+<a href="https://onelk33.github.io/hermes-reports/data/report-2026-05-15.json" style="background:var(--accent);color:#fff;border-color:var(--accent)">2026-05-15 (当前)</a>
+<a href="https://onelk33.github.io/hermes-reports/data/report-2026-05-12.json">2026-05-12</a>
+<a href="https://onelk33.github.io/hermes-reports/data/report-2026-05-10.json">2026-05-10</a>
+</div>
+<p style="color:var(--text-dim);font-size:13px;margin-top:12px;">点击日期查看对应数据文件。</p>
+</div>
+
 </div>
 
 <div class="footer">
-  <p>日报 · 每日自动生成 · 保留所有历史版本</p>
-  <p style="margin-top:4px;">数据来源：公开政策文件、新闻资讯及研究报告 · 所有链接均需可验证</p>
+<p>日报 · 每日自动生成 · 保留所有历史版本</p>
+<p style="margin-top:4px;">数据来源：公开政策文件、新闻资讯及研究报告</p>
 </div>
 
-<button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
-
-<script>
-// Section icons and colors
-const sectionConfig = {
-  tog: { icon: '📜', name: 'To G 趋势洞察', desc: '中央及地方政府AI/自动驾驶政策', tag: '政策文件', tagClass: 'tag-policy' },
-  industry: { icon: '🏭', name: '行业动态', desc: 'AI & 自动驾驶行业最新资讯', tag: '行业资讯', tagClass: 'tag-news' },
-  expert_opinions: { icon: '🎙️', name: '大咖观点', desc: '行业领袖最新公开发言', tag: '观点', tagClass: 'tag-speech' },
-  reports: { icon: '📈', name: '研报精选', desc: '最新研究报告', tag: '研究报告', tagClass: 'tag-report' }
-};
-
-// Field mapping: JSON key -> display section
-const sectionMap = {
-  'tog': { title: 'To G 趋势洞察', desc: '中央及地方政府AI/自动驾驶政策', icon: '📜', tag: '政策文件', tagClass: 'tag-policy' },
-  'industry': { title: '行业动态', desc: 'AI & 自动驾驶行业最新资讯', icon: '🏭', tag: '行业资讯', tagClass: 'tag-news' },
-  'expert_opinions': { title: '大咖观点', desc: '行业领袖最新公开发言', icon: '🎙️', tag: '观点摘要', tagClass: 'tag-speech' },
-  'reports': { title: '研报精选', desc: '最新研究报告', icon: '📈', tag: '研究报告', tagClass: 'tag-report' }
-};
-
-// Inline report data (no fetch needed)
-const REPORT_DATA = {"date": "2026-05-15", "cover_period": "2026年5月11日 - 5月15日", "note": "所有链接均经实际HTTP访问验证日期。时间范围覆盖5月11日-15日。", "sections": {"tog": [{"title": "特朗普时隔九年再度访华，中美签署多项合作，Nvidia黄仁勋随行引关注", "summary": "2026年5月12日，美国总统特朗普启程访华，5月14日与习近平主席在北京会晤。Nvidia创始人兼CEO黄仁勋出现在人民大会堂欢迎仪式现场，引发市场对AI芯片出口管制松动的猜测。特朗普访华期间，两国企业签署34个合作项目，金额达2535亿美元，覆盖AI、半导体、新能源等领域。", "link": "https://www.news.cn/politics/leaders/20260514/26f96140b5f04ba8b2cbc3670778d1f9/c.html", "date": "2026-05-14", "verified": true}, {"title": "Sam Altman再度赴国会听证：承认中美AI差距缩小，呼吁美国加大投入", "summary": "2026年5月，OpenAI CEO Sam Altman再度走进美国国会山，就AI监管、全球竞争、产业基础设施等议题作证。他点名DeepSeek表示中国AI能力正在快速追赶，警告美国的领先优势不会维持太久，呼吁国会加大AI基础设施投入并建立平衡的监管框架。", "link": "https://www.163.com/tech/article/JV4JAQT800098IEO.html", "date": "2026-05-11", "verified": true}, {"title": "欧盟AI法案倒计时：2026年8月全面生效，多家企业呼吁推迟实施", "summary": "欧盟AI法案将于2026年8月2日全面生效，这是全球首部全面监管AI的法律框架。欧洲企业（包括ASML等）纷纷呼吁推迟实施，认为过度监管将削弱欧洲AI竞争力。法案对不同风险等级AI系统实施分层监管，高风险AI系统需满足严格合规要求。", "link": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai", "date": "2026-05-13", "verified": true}], "industry": [{"title": "Robotaxi再遇安全考验：Waymo因积水风险召回近3800辆自动驾驶出租车", "summary": "2026年5月12日，美国国家公路交通安全管理局（NHTSA）披露，Waymo自愿召回3791辆第五代及第六代自动驾驶出租车。召回原因是软件缺陷可能导致车辆驶入被积水淹没的路段，这是Waymo首次针对第六代自动驾驶系统进行召回。此次事件引发市场对Robotaxi安全性的新一轮讨论。", "link": "https://finance.stockstar.com/IG2026051200034172.shtml", "date": "2026-05-12", "verified": true}, {"title": "Google举办The Android Show 2026：Gemini Intelligence深度整合Android生态", "summary": "2026年5月13日，Google在I/O 2026前举办「The Android Show」，重点发布Gemini Intelligence AI层，将AI深度整合至Android操作系统。同时推出Googlebook新型AI笔记本电脑，以及Android 17创作者功能升级。Gemini Intelligence可跨应用执行复杂任务，标志着AI从语音助手升级为操作系统级智能体。", "link": "https://ai.ettoday.net/news/3164887", "date": "2026-05-13", "verified": true}, {"title": "Anthropic十款金融AI智能体冲击华尔街，分析称将重塑金融服务工作流", "summary": "2026年5月14日，新浪发表深度分析，解读Anthropic于5月5日发布的10款金融AI Agent模板。这些智能体覆盖投行pitchbook制作、KYC审查、财务模型更新、月末关账等核心场景，深度集成Microsoft 365（Excel、PowerPoint、Word），直接对接Moody's、FactSet、Morningstar等数据源。分析预计可提升金融从业者效率35-85%。摩根大通CEO杰米·戴蒙与Anthropic CEO达里奥·阿莫代伊同台发布。", "link": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayu8893843.shtml", "date": "2026-05-14", "verified": true}, {"title": "OpenAI发布三款实时语音模型：GPT-Realtime-2首现GPT-5级推理能力", "summary": "2026年5月7-8日，OpenAI发布三款实时语音模型：GPT-Realtime-2（首个具备GPT-5级推理能力的语音模型）、GPT-Realtime-Translate（覆盖70+输入语言的实时翻译）、GPT-Realtime-Whisper（流式语音转文字）。新模型配备128K上下文窗口，支持可调推理深度，对智能座舱、客服机器人等场景具有重要应用价值。", "link": "https://smhn.info/202605-openai-gpt-realtime-2-voice-ai-announcement", "date": "2026-05-11", "verified": true}, {"title": "xAI Grok 4.3低价上线，同时推出AI语音克隆套件", "summary": "2026年5月初，xAI正式推出Grok 4.3模型，以激进低价策略进入市场，同时发布全新AI语音克隆套件。Grok 4.3此前已在SuperGrok订阅计划中测试。马斯克宣称Grok将在2026年底开始制作电影，xAI正加速从模型提供商向综合性AI平台转型。", "link": "https://www.dataworldbank.net/2026/05/01/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite/", "date": "2026-05-11", "verified": true}, {"title": "Waymo伦敦测试持续引发关注：无人车凌晨4点困在死巷吵醒居民", "summary": "2026年5月11日，Metro报道Waymo自动驾驶汽车在伦敦测试中多次于凌晨4点被困在死胡同，频繁进出吵醒附近居民。Waymo计划于2026年9月在伦敦正式推出Robotaxi服务，这是其继东京后的第二个国际市场，但当地测试中的运营问题引发公众对无人驾驶的担忧。", "link": "https://metro.co.uk/2026/05/11/waymo-driverless-cars-keeps-waking-londoners-4am-getting-stuck-dead-end-street-28326146/", "date": "2026-05-11", "verified": true}, {"title": "Anthropic工程师发文：HTML才是AI终极语言，引发技术圈激烈辩论", "summary": "2026年5月9日，Anthropic工程师发文称已彻底停止使用Markdown，认为HTML才是AI智能体时代的完美通信格式。文章在技术圈引发争议，支持者认为HTML的语义结构化对AI解析更友好，反对者则认为这是技术倒退。该讨论反映了AI生成内容格式标准化的深层需求。", "link": "https://tonybai.com/2026/05/09/anthropic-engineer-say-html-is-the-ultimate-language-for-ai/", "date": "2026-05-11", "verified": true}], "expert_opinions": [{"speaker": "Sam Altman，OpenAI CEO", "occasion": "美国国会听证会（2026年5月）", "summary": "Altman在国会作证时承认中美AI差距正在快速缩小，点名DeepSeek等中国AI公司的进展。他表示美国在AI领域的领先优势不会维持太久，呼吁国会加大AI基础设施投入，同时建立平衡的监管框架以避免抑制创新。", "link": "https://www.163.com/tech/article/JV4JAQT800098IEO.html", "date": "2026-05-11", "verified": true}, {"speaker": "黄仁勋，Nvidia CEO", "occasion": "特朗普访华欢迎仪式（2026年5月14日）", "summary": "黄仁勋出席在人民大会堂举行的特朗普访华欢迎仪式，市场解读为中美AI芯片合作释放积极信号。此前美国对华AI芯片出口管制持续收紧，黄仁勋多次呼吁平衡国家安全与商业利益。", "link": "https://www.bbc.com/zhongwen/articles/ckgpdl5038ro/simp", "date": "2026-05-14", "verified": true}, {"speaker": "Jamie Dimon，摩根大通CEO & Dario Amodei，Anthropic CEO", "occasion": "Anthropic金融服务发布会（2026年5月5日，持续影响至5月中旬）", "summary": "Dimon与Amodei同台发布10款金融AI Agent模板。Dimon表示AI将从根本上改变金融服务行业的工作方式，从耗时的手工操作转向AI驱动的高效工作流。Amodei强调这些Agent在设计上注重安全性和可靠性，可直接集成到现有金融IT架构中。", "link": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayu8893843.shtml", "date": "2026-05-14", "verified": true}], "reports": [{"title": "2026年Q1全球AI Agent市场报告：企业级部署加速，金融与医疗领跑", "summary": "行业分析指出，2026年Q1全球AI Agent市场快速扩张，企业级Agent部署加速，金融和医疗行业在Agent采用率上领先。Anthropic的金融Agent模板发布标志着AI从辅助工具向生产级工作流核心的转变，预计2026年下半年将有更多行业推出垂直Agent方案。", "link": "https://www.marketingscoop.com/ai-2/anthropic-financial-services-agents-what-the-10-claude-templates-mean-for-banks-insurers-and-asset-managers/", "date": "2026-05-11", "verified": true}, {"title": "中信证券：Robotaxi商业化加速，建议关注自动驾驶产业链核心标的", "summary": "中信证券最新研报指出，2026年Robotaxi赛道进入商业化加速期，小马智行、滴滴、Waymo等头部玩家车队规模快速扩张。报告建议关注自动驾驶传感器、芯片、算法平台及出行运营平台等产业链环节。北京上海等地持续释放政策利好，为Robotaxi规模化运营创造制度环境。", "link": "https://www.fxbaogao.com/detail/5168466", "date": "2026-05-12", "verified": true}]}};
-
-function loadReport() {
-  const container = document.getElementById('app');
-  try {
-    const dates = ['2026-05-15', '2026-05-12', '2026-05-10'];
-    renderReport(REPORT_DATA, container);
-  } catch(e) {
-    container.innerHTML = `<div style="text-align:center;padding:60px;color:var(--text-dim);">
-      <div style="font-size:48px;margin-bottom:16px;">⚠️</div>
-      <p>日报数据加载失败：${e.message}</p>
-    </div>`;
-  }
-}
-
-function renderReport(data, container) {
-  // Update period tag
-  document.getElementById('periodTag').textContent = `📅 ${data.cover_period}`;
-
-  let html = '';
-
-  // Render each section
-  for (const [sectionKey, sectionInfo] of Object.entries(sectionMap)) {
-    const items = data.sections[sectionKey];
-    if (!items || items.length === 0) continue;
-
-    html += `
-      <div class="section" id="${sectionKey === 'expert_opinions' ? 'expert' : sectionKey}">
-        <div class="section-header">
-          <div class="section-icon ${sectionKey === 'tog' ? 'tog' : sectionKey === 'industry' ? 'industry' : sectionKey === 'expert_opinions' ? 'expert' : 'report'}">${sectionInfo.icon}</div>
-          <div class="section-title">${sectionInfo.title}</div>
-          <div class="section-desc">${sectionInfo.desc}</div>
-        </div>
-    `;
-
-    for (const item of items) {
-      html += `<div class="card">`;
-      html += `<span class="tag ${sectionInfo.tagClass}">${sectionInfo.tag}</span>`;
-
-      // For expert opinions, show speaker + occasion
-      if (sectionKey === 'expert_opinions' && item.speaker) {
-        html += `<div class="meta"><span class="speaker">🎤 ${item.speaker}</span>`;
-        if (item.occasion) html += `<span>${item.occasion}</span>`;
-        if (item.date) html += `<span class="date">📅 ${item.date}</span>`;
-        html += `</div>`;
-      } else {
-        if (item.date) {
-          html += `<div class="meta"><span class="date">📅 ${item.date}</span></div>`;
-        }
-      }
-
-      html += `<h3>${item.title}</h3>`;
-      html += `<p>${item.summary}</p>`;
-
-      if (item.link) {
-        html += `<a class="link" href="${item.link}" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>`;
-      }
-
-      html += `</div>`;
-    }
-
-    html += `</div>`;
-  }
-
-  // Archive section
-  html += `
-    <div class="archive-panel" id="archive">
-      <h3>📚 历史日报归档</h3>
-      <div class="archive-list" id="archiveList">
-        ${dates.map(d => `<a href="?date=${d}" ${d === dates[0] ? 'class="active"' : ''}>${d}</a>`).join('')}
-      </div>
-      <p style="color:var(--text-dim);font-size:13px;margin-top:12px;">点击日期切换查看历史报告。</p>
-    </div>
-  `;
-
-  container.innerHTML = html;
-}
-
-// Scroll spy for nav
-document.addEventListener('scroll', () => {
-  const backBtn = document.getElementById('backToTop');
-  if (window.scrollY > 300) {
-    backBtn.classList.add('visible');
-  } else {
-    backBtn.classList.remove('visible');
-  }
-
-  // Update active nav link
-  const sections = ['tog', 'industry', 'expert', 'report', 'archive'];
-  for (const id of sections) {
-    const el = document.getElementById(id);
-    if (el) {
-      const rect = el.getBoundingClientRect();
-      const link = document.querySelector(`.nav-bar a[href="#${id}"]`);
-      if (link && rect.top < 200 && rect.bottom > 100) {
-        document.querySelectorAll('.nav-bar a').forEach(a => a.classList.remove('active'));
-        link.classList.add('active');
-      }
-    }
-  }
-});
-
-loadReport();
-</script>
 </body>
 </html>
