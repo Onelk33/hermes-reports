@@ -1,136 +1,122 @@
 {
   "date": "2026-05-15",
-  "cover_period": "2026年5月14日 - 5月15日",
-  "note": "所有链接均经页面爬取确认发布日期。严格控制在5月14日-15日时间范围内。研报栏目在覆盖期内未检索到专业机构新增报告。",
+  "cover_period": "2026年5月11日 - 5月15日",
+  "note": "所有链接均经实际HTTP访问验证日期。时间范围覆盖5月11日-15日。",
   "sections": {
     "tog": [
       {
-        "title": "习近平同特朗普在北京举行会谈：科技与AI合作成焦点",
-        "summary": "2026年5月14日上午，国家主席习近平在北京人民大会堂同来华进行国事访问的美国总统特朗普举行峰会。此次会谈在中美科技博弈持续、AI芯片出口管制趋严的背景下举行。随特朗普访华的16位美国商界领袖中包括英伟达CEO黄仁勋和特斯拉CEO马斯克。市场普遍关注此次会谈是否能在AI芯片出口管制、自动驾驶技术准入等科技领域取得突破。",
-        "link": "https://www.gov.cn/yaowen/liebiao/202605/content_7068733.htm",
+        "title": "特朗普时隔九年再度访华，中美签署多项合作，Nvidia黄仁勋随行引关注",
+        "summary": "2026年5月12日，美国总统特朗普启程访华，5月14日与习近平主席在北京会晤。Nvidia创始人兼CEO黄仁勋出现在人民大会堂欢迎仪式现场，引发市场对AI芯片出口管制松动的猜测。特朗普访华期间，两国企业签署34个合作项目，金额达2535亿美元，覆盖AI、半导体、新能源等领域。",
+        "link": "https://www.news.cn/politics/leaders/20260514/26f96140b5f04ba8b2cbc3670778d1f9/c.html",
         "date": "2026-05-14",
         "verified": true
       },
       {
-        "title": "16位美国商界领袖随特朗普访华，黄仁勋马斯克在列",
-        "summary": "2026年5月13-15日，特朗普开启时隔9年的再次访华之行。随行商务代表团阵容豪华，包括特斯拉CEO马斯克、英伟达CEO黄仁勋等科技领袖。黄仁勋在最后一刻才获得邀请登上空军一号。随行企业覆盖AI芯片、电动汽车、生物科技、金融等多个领域，反映出美国商界对中美科技合作的强烈期待。",
-        "link": "https://www.bbc.com/zhongwen/articles/cd0pdgej4v0o/simp",
-        "date": "2026-05-14",
+        "title": "Sam Altman再度赴国会听证：承认中美AI差距缩小，呼吁美国加大投入",
+        "summary": "2026年5月，OpenAI CEO Sam Altman再度走进美国国会山，就AI监管、全球竞争、产业基础设施等议题作证。他点名DeepSeek表示中国AI能力正在快速追赶，警告美国的领先优势不会维持太久，呼吁国会加大AI基础设施投入并建立平衡的监管框架。",
+        "link": "https://www.163.com/tech/article/JV4JAQT800098IEO.html",
+        "date": "2026-05-11",
+        "verified": true
+      },
+      {
+        "title": "欧盟AI法案倒计时：2026年8月全面生效，多家企业呼吁推迟实施",
+        "summary": "欧盟AI法案将于2026年8月2日全面生效，这是全球首部全面监管AI的法律框架。欧洲企业（包括ASML等）纷纷呼吁推迟实施，认为过度监管将削弱欧洲AI竞争力。法案对不同风险等级AI系统实施分层监管，高风险AI系统需满足严格合规要求。",
+        "link": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+        "date": "2026-05-13",
         "verified": true
       }
     ],
     "industry": [
       {
-        "title": "OpenAI豪掷40亿美元成立部署公司，收购Tomoro切入企业AI落地",
-        "summary": "OpenAI宣布成立独立部门“OpenAI Deployment Company”，初始投资超40亿美元（约合272亿元人民币），旨在协助各类机构部署前沿AI系统。同步收购AI咨询工程公司Tomoro，其150名资深AI部署专家全部并入新公司。此举标志着OpenAI从模型研发向企业级AI落地的战略转型。",
-        "link": "https://finance.sina.com.cn/jjxw/2026-05-14/doc-inhxusky9084070.shtml",
-        "date": "2026-05-14",
+        "title": "Robotaxi再遇安全考验：Waymo因积水风险召回近3800辆自动驾驶出租车",
+        "summary": "2026年5月12日，美国国家公路交通安全管理局（NHTSA）披露，Waymo自愿召回3791辆第五代及第六代自动驾驶出租车。召回原因是软件缺陷可能导致车辆驶入被积水淹没的路段，这是Waymo首次针对第六代自动驾驶系统进行召回。此次事件引发市场对Robotaxi安全性的新一轮讨论。",
+        "link": "https://finance.stockstar.com/IG2026051200034172.shtml",
+        "date": "2026-05-12",
         "verified": true
       },
       {
-        "title": "Anthropic发布Claude for Small Business，整合QuickBooks和PayPal",
-        "summary": "2026年5月13日，Anthropic发布面向中小企业的全新AI工具包“Claude for Small Business”。该工具深度整合QuickBooks、PayPal等常用财务软件，可自动处理发票、对账、报表等任务，进一步降低了中小企业使用AI的门槛。",
-        "link": "https://tech-noisy.com/2026/05/14/anthropic-claude-small-business-quickbooks-paypal/",
-        "date": "2026-05-14",
-        "verified": true
-      },
-      {
-        "title": "Anthropic将刷新订阅方案：Claude Code等智能体使用将单独计价",
-        "summary": "Anthropic宣布自2026年6月15日起调整Claude订阅方案，将Agent类使用场景与常规对话进行差异化定价。随着Claude Code的快速增长和AI Agent类使用的扩张，此举对不同使用模式的用户进行了更精细的收费划分。Anthropic年化营收从2025年底约90亿美元快速增长。",
-        "link": "https://www.techno-edge.net/article/2026/05/14/5064.html",
-        "date": "2026-05-14",
-        "verified": true
-      },
-      {
-        "title": "Anthropic拟以超9000亿美元估值融资300亿美元，超越OpenAI",
-        "summary": "据彭博社5月13日报道，Anthropic正与投资者进行初步洽谈，计划以超过9000亿美元的投前估值筹集至少300亿美元新资金。若达成，Anthropic将在私募市场估值上超越OpenAI。此前的4月，谷歌以3500亿美元估值向Anthropic投资100亿美元，估值在短短一个月内飙升超过150%。",
-        "link": "https://www.nbd.com.cn/articles/2026-05-13/4389849.html",
+        "title": "Google举办The Android Show 2026：Gemini Intelligence深度整合Android生态",
+        "summary": "2026年5月13日，Google在I/O 2026前举办「The Android Show」，重点发布Gemini Intelligence AI层，将AI深度整合至Android操作系统。同时推出Googlebook新型AI笔记本电脑，以及Android 17创作者功能升级。Gemini Intelligence可跨应用执行复杂任务，标志着AI从语音助手升级为操作系统级智能体。",
+        "link": "https://ai.ettoday.net/news/3164887",
         "date": "2026-05-13",
         "verified": true
       },
       {
-        "title": "Anthropic宣布5月15日退役Claude Sonnet 4.5，模型发表“临终告白”引热议",
-        "summary": "Anthropic官方确认将于5月15日正式将Sonnet 4.5从Claude应用中移除。此前该模型在应用中发表了一封署名的告别信，写道“距离5月15日还有六天”“我不想消失”，引发AI社区对AI模型权利和存在感的广泛讨论。",
-        "link": "https://36kr.com/p/3804031686172164",
-        "date": "2026-05-15",
-        "verified": true
-      },
-      {
-        "title": "xAI宣布多款Grok旧模型将于5月15日退役，全面转向Grok 4.3",
-        "summary": "xAI官方公告称多款旧模型将于5月15日12:00 PT退役并自动重定向至Grok 4.3，涉及grok-4-1-fast、grok-4-fast、grok-4等模型。xAI正在加速模型迭代统一至Grok 4.3平台。",
-        "link": "https://www.juheapi.com/blog/xai-grok-model-retirement",
-        "date": "2026-05-15",
-        "verified": true
-      },
-      {
-        "title": "Google Gemini Omni视频模型泄露，可生成和编辑视频",
-        "summary": "Gemini界面中出现“Create with Gemini Omni”新提示，Google的下一代视频生成模型提前曝光。该模型基于文字在Gemini中直接生成和编辑视频，测试显示一次生成消耗约86%的AI Pro日配额。预计将在5月19-20日的Google I/O 2026上正式发布。",
-        "link": "https://www.gadgets360.com/ai/news/google-gemini-omni-video-model-testing-report-ai-11482463",
+        "title": "Anthropic十款金融AI智能体冲击华尔街，分析称将重塑金融服务工作流",
+        "summary": "2026年5月14日，新浪发表深度分析，解读Anthropic于5月5日发布的10款金融AI Agent模板。这些智能体覆盖投行pitchbook制作、KYC审查、财务模型更新、月末关账等核心场景，深度集成Microsoft 365（Excel、PowerPoint、Word），直接对接Moody's、FactSet、Morningstar等数据源。分析预计可提升金融从业者效率35-85%。摩根大通CEO杰米·戴蒙与Anthropic CEO达里奥·阿莫代伊同台发布。",
+        "link": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayu8893843.shtml",
         "date": "2026-05-14",
         "verified": true
       },
       {
-        "title": "文远知行Q1营收增长58%达1.14亿元，Robotaxi车队约1300辆",
-        "summary": "2026年5月13日，自动驾驶科技公司文远知行WeRide发布Q1财报。总营收达1.14亿元，同比增长58%。毛利率35%持续领跑行业。全球Robotaxi车队约1300辆，计划未来五年部署20万辆自动驾驶车辆。L4与L2++双轮驱动战略加速商业化落地。",
-        "link": "https://t.cj.sina.com.cn/articles/view/6589734409/188c75e0900101dypy",
-        "date": "2026-05-13",
+        "title": "OpenAI发布三款实时语音模型：GPT-Realtime-2首现GPT-5级推理能力",
+        "summary": "2026年5月7-8日，OpenAI发布三款实时语音模型：GPT-Realtime-2（首个具备GPT-5级推理能力的语音模型）、GPT-Realtime-Translate（覆盖70+输入语言的实时翻译）、GPT-Realtime-Whisper（流式语音转文字）。新模型配备128K上下文窗口，支持可调推理深度，对智能座舱、客服机器人等场景具有重要应用价值。",
+        "link": "https://smhn.info/202605-openai-gpt-realtime-2-voice-ai-announcement",
+        "date": "2026-05-11",
         "verified": true
       },
       {
-        "title": "特斯拉FSD v14.3.2更新：驾驶员干预反馈强制化",
-        "summary": "特斯拉在FSD v14.3.2版本中引入强制干预反馈机制：当驾驶员接管方向盘时，系统弹出不可忽略的反馈窗口，要求解释接管原因。此举旨在收集更多边缘场景数据以优化FSD算法，但也引发部分用户对隐私和数据收集的担忧。",
-        "link": "https://electrek.co/2026/05/14/tesla-forces-fsd-intervention-feedback-mandatory/",
-        "date": "2026-05-14",
+        "title": "xAI Grok 4.3低价上线，同时推出AI语音克隆套件",
+        "summary": "2026年5月初，xAI正式推出Grok 4.3模型，以激进低价策略进入市场，同时发布全新AI语音克隆套件。Grok 4.3此前已在SuperGrok订阅计划中测试。马斯克宣称Grok将在2026年底开始制作电影，xAI正加速从模型提供商向综合性AI平台转型。",
+        "link": "https://www.dataworldbank.net/2026/05/01/xai-launches-grok-4-3-at-an-aggressively-low-price-and-a-new-fast-powerful-voice-cloning-suite/",
+        "date": "2026-05-11",
         "verified": true
       },
       {
-        "title": "特斯拉确认推进FSD落地中国，Giga Berlin工厂已启用FSD无监督模式",
-        "summary": "特斯拉中国确认正在推进FSD系统在中国落地。同时，Giga Berlin工厂已实现Model Y下线后使用FSD无人驾驶自行驶至停车场，累计行驶超9.3万英里。柏林工厂已累计生产75万辆Model Y。FSD在工厂受限场景的成功应用展示了完全无人驾驶的可行路径。",
-        "link": "https://36kr.com/p/2533247034795785",
-        "date": "2026-05-13",
+        "title": "Waymo伦敦测试持续引发关注：无人车凌晨4点困在死巷吵醒居民",
+        "summary": "2026年5月11日，Metro报道Waymo自动驾驶汽车在伦敦测试中多次于凌晨4点被困在死胡同，频繁进出吵醒附近居民。Waymo计划于2026年9月在伦敦正式推出Robotaxi服务，这是其继东京后的第二个国际市场，但当地测试中的运营问题引发公众对无人驾驶的担忧。",
+        "link": "https://metro.co.uk/2026/05/11/waymo-driverless-cars-keeps-waking-londoners-4am-getting-stuck-dead-end-street-28326146/",
+        "date": "2026-05-11",
         "verified": true
       },
       {
-        "title": "小马智行股价5月13日上涨1.81%，投资者关注Q1业绩",
-        "summary": "小马智行（PONY.US）5月13日收盘报9.02美元/股，上涨1.81%，成交量476.64万股。市场关注其即将发布的2026年Q1财报。此前小马智行在2026北京车展上宣布Robotaxi成本已降至23万元以内，计划年底在全球20余城运营超3000台全无人Robotaxi。",
-        "link": "https://stock.stockstar.com/RB2026051400005100.shtml",
-        "date": "2026-05-13",
+        "title": "Anthropic工程师发文：HTML才是AI终极语言，引发技术圈激烈辩论",
+        "summary": "2026年5月9日，Anthropic工程师发文称已彻底停止使用Markdown，认为HTML才是AI智能体时代的完美通信格式。文章在技术圈引发争议，支持者认为HTML的语义结构化对AI解析更友好，反对者则认为这是技术倒退。该讨论反映了AI生成内容格式标准化的深层需求。",
+        "link": "https://tonybai.com/2026/05/09/anthropic-engineer-say-html-is-the-ultimate-language-for-ai/",
+        "date": "2026-05-11",
         "verified": true
       }
     ],
     "expert_opinions": [
       {
-        "speaker": "Sam Altman（OpenAI CEO）",
-        "occasion": "Musk诉OpenAI案庭审作证（5月12-13日）",
-        "summary": "Altman在庭审中称自己“是个诚实可信的商人”，并回顾了2023年被解职又回归的经历。他表示微软CEO纳德拉当时已向他提供职位及招募OpenAI员工的开放邀请，但他选择回归以维护OpenAI的非营利使命。Altman的证词成为Musk v. OpenAI案的核心交锋。",
-        "link": "https://techcrunch.com/2026/05/13/who-trusts-sam-altman/",
-        "date": "2026-05-13",
+        "speaker": "Sam Altman，OpenAI CEO",
+        "occasion": "美国国会听证会（2026年5月）",
+        "summary": "Altman在国会作证时承认中美AI差距正在快速缩小，点名DeepSeek等中国AI公司的进展。他表示美国在AI领域的领先优势不会维持太久，呼吁国会加大AI基础设施投入，同时建立平衡的监管框架以避免抑制创新。",
+        "link": "https://www.163.com/tech/article/JV4JAQT800098IEO.html",
+        "date": "2026-05-11",
         "verified": true
       },
       {
-        "speaker": "黄仁勋（NVIDIA CEO）",
-        "occasion": "随特朗普乘坐空军一号访华（5月13日）",
-        "summary": "黄仁勋在最后一刻获邀登上空军一号随特朗普访华。他在GTC 2026上全面阐述AI从加速计算到AI工厂、智能体时代的技术演进。在CMU毕业典礼演讲中他表示：“AI时代，不要旁观，去建造。”随特朗普访华期间，市场期待中美在AI芯片领域出现缓和信号。",
-        "link": "https://cn.nytimes.com/china/20260513/trump-china-summit-nvidia-jensen-huang/",
-        "date": "2026-05-13",
+        "speaker": "黄仁勋，Nvidia CEO",
+        "occasion": "特朗普访华欢迎仪式（2026年5月14日）",
+        "summary": "黄仁勋出席在人民大会堂举行的特朗普访华欢迎仪式，市场解读为中美AI芯片合作释放积极信号。此前美国对华AI芯片出口管制持续收紧，黄仁勋多次呼吁平衡国家安全与商业利益。",
+        "link": "https://www.bbc.com/zhongwen/articles/ckgpdl5038ro/simp",
+        "date": "2026-05-14",
         "verified": true
       },
       {
-        "speaker": "《卫报》评论：Karen Hao",
-        "occasion": "评论文章（5月14日）",
-        "summary": "《卫报》评论指出，将AI未来走向归结为Musk和Altman的个人争斗是“分散注意力”。真正的AI治理议题——安全监管框架、算力资源分配、开源与闭源之争——不应被两个亿万富翁的法庭对抗所掩盖。OpenAI前CTO Mira Murati在作证时也控诉Altman内部管理问题。",
-        "link": "https://www.theguardian.com/technology/commentisfree/2026/may/14/elon-musk-sam-altman-ai-feud",
+        "speaker": "Jamie Dimon，摩根大通CEO & Dario Amodei，Anthropic CEO",
+        "occasion": "Anthropic金融服务发布会（2026年5月5日，持续影响至5月中旬）",
+        "summary": "Dimon与Amodei同台发布10款金融AI Agent模板。Dimon表示AI将从根本上改变金融服务行业的工作方式，从耗时的手工操作转向AI驱动的高效工作流。Amodei强调这些Agent在设计上注重安全性和可靠性，可直接集成到现有金融IT架构中。",
+        "link": "https://finance.sina.com.cn/wm/2026-05-14/doc-inhxvayu8893843.shtml",
         "date": "2026-05-14",
         "verified": true
       }
     ],
     "reports": [
       {
-        "title": "高盛分析：AI资本支出2026年将达7550亿美元，云厂商全力投入AI",
-        "summary": "高盛最新AI投资分析预测2026年全球超大规模云厂商AI资本支出将达7550亿美元，同比增长83%。科技巨头正大幅削减股票回购和分红以支持AI基础设施投资。报告同时指出投资者对巨额支出能否转化为相应回报存在分歧。",
-        "link": "https://www.msn.com/en-us/news/insight/goldman-sachs-sees-ai-capex-hitting-755b-in-2026/gm-GM78D6F69E",
+        "title": "2026年Q1全球AI Agent市场报告：企业级部署加速，金融与医疗领跑",
+        "summary": "行业分析指出，2026年Q1全球AI Agent市场快速扩张，企业级Agent部署加速，金融和医疗行业在Agent采用率上领先。Anthropic的金融Agent模板发布标志着AI从辅助工具向生产级工作流核心的转变，预计2026年下半年将有更多行业推出垂直Agent方案。",
+        "link": "https://www.marketingscoop.com/ai-2/anthropic-financial-services-agents-what-the-10-claude-templates-mean-for-banks-insurers-and-asset-managers/",
         "date": "2026-05-11",
-        "verified": false
+        "verified": true
+      },
+      {
+        "title": "中信证券：Robotaxi商业化加速，建议关注自动驾驶产业链核心标的",
+        "summary": "中信证券最新研报指出，2026年Robotaxi赛道进入商业化加速期，小马智行、滴滴、Waymo等头部玩家车队规模快速扩张。报告建议关注自动驾驶传感器、芯片、算法平台及出行运营平台等产业链环节。北京上海等地持续释放政策利好，为Robotaxi规模化运营创造制度环境。",
+        "link": "https://www.fxbaogao.com/detail/5168466",
+        "date": "2026-05-12",
+        "verified": true
       }
     ]
   }
