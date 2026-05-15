@@ -317,7 +317,8 @@ async function loadReport() {
   const container = document.getElementById('app');
   try {
     // Try to load the latest report
-    const resp = await fetch('./data/report-2026-05-10.json');
+    const dates = ['2026-05-15', '2026-05-12', '2026-05-10'];
+    const resp = await fetch(`./data/report-${dates[0]}.json`);
     if (!resp.ok) throw new Error('Failed to load report');
     const data = await resp.json();
     renderReport(data, container);
@@ -384,9 +385,9 @@ function renderReport(data, container) {
     <div class="archive-panel" id="archive">
       <h3>📚 历史日报归档</h3>
       <div class="archive-list" id="archiveList">
-        <a href="?date=2026-05-12" class="active">2026-05-12 (当前)</a>
+        ${dates.map(d => `<a href="?date=${d}" ${d === dates[0] ? 'class="active"' : ''}>${d}</a>`).join('')}
       </div>
-      <p style="color:var(--text-dim);font-size:13px;margin-top:12px;">新报告将在生成后自动出现在归档列表中。</p>
+      <p style="color:var(--text-dim);font-size:13px;margin-top:12px;">点击日期切换查看历史报告。</p>
     </div>
   `;
 
