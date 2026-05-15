@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日报 - AI &amp; 自动驾驶</title>
+<style>
+:root{--bg:#0f0f1a;--card-bg:#1a1a2e;--text:#e0e0e0;--text-dim:#888;--accent:#4a6cf7;--border:#2a2a4a}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.7;min-height:100vh}
+.header{background:linear-gradient(135deg,#1a1a3e,#2932E1);padding:40px 20px;text-align:center;border-bottom:3px solid #2932E1}
+.header h1{font-size:28px;font-weight:700;color:#fff;letter-spacing:2px}
+.header .subtitle{color:rgba(255,255,255,0.7);font-size:14px;margin-top:8px}
+.header .period{display:inline-block;background:rgba(255,255,255,0.15);color:#fff;padding:4px 16px;border-radius:20px;font-size:14px;margin-top:12px}
+.nav-bar{background:var(--card-bg);padding:12px 24px;display:flex;gap:8px;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;overflow-x:auto}
+.nav-bar a{color:var(--text-dim);text-decoration:none;padding:6px 14px;border-radius:6px;font-size:13px;white-space:nowrap;transition:all 0.2s}
+.nav-bar a:hover,.nav-bar a.active{color:#fff;background:var(--accent)}
+.container{max-width:960px;margin:0 auto;padding:24px 16px 80px}
+.section{margin-bottom:40px}
+.section-header{display:flex;align-items:center;gap:12px;margin-bottom:20px;padding-bottom:12px;border-bottom:2px solid var(--accent)}
+.section-icon{width:36px;height:36px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:18px;flex-shrink:0}
+.section-icon.policy{background:#e74c3c22}
+.section-icon.news{background:#3498db22}
+.section-icon.speech{background:#f39c1222}
+.section-icon.rpt{background:#2ecc7122}
+.section-title{font-size:20px;font-weight:700;color:#fff}
+.section-desc{font-size:13px;color:var(--text-dim);margin-left:auto}
+.card{background:var(--card-bg);border:1px solid var(--border);border-radius:10px;padding:20px;margin-bottom:16px;transition:border-color 0.2s}
+.card:hover{border-color:var(--accent)}
+.card .tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:4px;margin-bottom:8px}
+.tag-policy{background:#e74c3c33;color:#e74c3c}
+.tag-news{background:#3498db33;color:#3498db}
+.tag-speech{background:#f39c1233;color:#f39c12}
+.tag-report{background:#2ecc7133;color:#2ecc71}
+.card h3{font-size:16px;color:#fff;margin-bottom:8px;line-height:1.5}
+.card .meta{font-size:12px;color:var(--text-dim);margin-bottom:10px;display:flex;flex-wrap:wrap;gap:12px}
+.card .meta .date{color:#6b8aff}
+.card .meta .speaker{color:#f39c12}
+.card p{font-size:14px;color:var(--text);line-height:1.8}
+.card .link{display:inline-block;margin-top:10px;font-size:13px;color:#6b8aff;text-decoration:none}
+.card .link:hover{text-decoration:underline}
+.archive-panel{background:var(--card-bg);border:1px solid var(--border);border-radius:10px;padding:20px;margin-top:40px}
+.archive-panel h3{font-size:16px;color:#fff;margin-bottom:12px}
+.archive-list{display:flex;flex-wrap:wrap;gap:8px}
+.archive-list a{color:#6b8aff;text-decoration:none;padding:4px 12px;border:1px solid var(--border);border-radius:6px;font-size:13px;transition:all 0.2s}
+.archive-list a:hover{border-color:var(--accent);background:var(--accent);color:#fff}
+.archive-list a.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+.footer{text-align:center;padding:30px;color:var(--text-dim);font-size:12px;border-top:1px solid var(--border)}
+@media(max-width:640px){.header h1{font-size:22px}.card{padding:16px}}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1>📊 日报</h1>
+<div class="subtitle">AI &amp; 自动驾驶 · 政策 · 行业动态 · 大咖观点 · 研报</div>
+<div class="period">📅 2026年5月7日 - 5月12日</div>
+</div>
+
+<div class="nav-bar">
+<a href="#tog">📜 政策</a>
+<a href="#industry">🏭 行业动态</a>
+<a href="#expert">🎙️ 大咖观点</a>
+<a href="#report">📈 研报</a>
+<a href="#archive">📚 历史归档</a>
+</div>
+
+<div class="container">
+
+<div class="section" id="tog">
+<div class="section-header">
+<div class="section-icon policy">📜</div>
+<div class="section-title">To G 趋势洞察</div>
+<div class="section-desc">AI/自动驾驶政策</div>
+</div>
+<div class="card">
+<span class="tag tag-policy">政策文件</span>
+<div class="meta"><span class="date">📅 2026-05-11</span></div>
+<h3>广州市发布人工智能产业2026年工作要点：32条举措打造垂类模型之都</h3>
+<p>2026年5月11日，广州市人工智能产业发展办公室发布《广州市人工智能产业2026年工作要点》，从八个方面提出32条具体举措，加快将广州打造成为垂类模型之都。这是5月份首个一线城市发布的AI产业专项政策，涉及算力基础设施建设、大模型应用推广、数据要素市场改革、AI人才培养等方向。</p>
+<a class="link" href="https://www.stcn.com/article/detail/3903550.html" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>
+</div>
+<div class="card">
+<span class="tag tag-policy">政策文件</span>
+<div class="meta"><span class="date">📅 2026-05-11</span></div>
+<h3>六部门联合发布AI智能体规范引导文件：划定发展基线保障安全</h3>
+<p>2026年5月11日央视新闻报道，中国多个部委联合就AI智能体发展发布指导意见，为其划定安全发展基线。随着OpenClaw等智能体广泛应用，其在展现强大自主执行能力的同时，也暴露出指令诱导下的网络安全风险。这是中国首次从国家层面对AI智能体进行专项规范。</p>
+<a class="link" href="https://news.cctv.com/2026/05/11/ARTIiqin5kTGJqfBWLZ7zA1k260511.shtml" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>
+</div>
+<div class="card">
+<span class="tag tag-policy">政策文件</span>
+<div class="meta"><span class="date">📅 2026-05-08</span></div>
+<h3>三部门印发文件：四方面举措促进AI智能体规范应用与创新发展</h3>
+<p>2026年5月8日，三部门联合印发促进智能体规范应用与创新发展的文件，从技术标准、安全评估、应用场景、产业发展四个方面提出具体举措。文件旨在平衡AI智能体的创新活力与安全保障，为智能体在各行业的落地提供政策指引。</p>
+<a class="link" href="https://news.cctv.com/2026/05/08/ARTIcrbxsnVmEHydEYtaEzZs260508.shtml" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>
+</div>
+<div class="card">
+<span class="tag tag-policy">政策文件</span>
+<div class="meta"><span class="date">📅 2026-05-07</span></div>
+<h3>多地政策利好Robotaxi：网约车平台加速布局无人驾驶出行服务</h3>
+<p>2026年5月7日，新浪财经报道在多地政策利好推动下，网约车平台正在提速布局Robotaxi业务。Uber在5月6日一季度财报中披露其自动驾驶出行服务同比增长超过10倍，已在8个城市上线。国内上海、北京、广州等城市持续释放Robotaxi政策利好。</p>
+<a class="link" href="https://finance.sina.com.cn/tech/roll/2026-05-07/doc-inhxatez2742150.shtml" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>
+</div>
+
+</div>
+<div class="section" id="industry">
+<div class="section-header">
+<div class="section-icon news">🏭</div>
+<div class="section-title">行业动态</div>
+<div class="section-desc">AI &amp; 自动驾驶行业资讯</div>
+</div>
+<div class="card">
+<span class="tag tag-news">行业资讯</span>
+<div class="meta"><span class="date">📅 2026-05-07</span></div>
+<h3>量产计划密集发布，Robotaxi商业化提速——2026北京车展释放强烈信号</h3>
+<p>2026年5月7日中青在线报道，2026北京车展上Robotaxi赛道竞争明显提速，自动驾驶科技公司、整车企业、出行平台三方同步发力商业化落地。小马智行宣布计划在全球20余座城市部署超过3000辆全无人Robotaxi，2026年被视为商业化元年。</p>
+<a class="link" href="http://auto.cyol.com/gb/articles/2026-05/07/content_BbynbNsBed.html" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>
+</div>
+<div class="card">
+<span class="tag tag-news">行业资讯</span>
+<div class="meta"><span class="date">📅 2026-05-11</span></div>
+<h3>Waymo宣布大规模扩张：全电动Robotaxi将进入近20个新市场</h3>
+<p>Alphabet旗下Waymo宣布将其全无人驾驶出租车服务大规模扩展至约20个新市场，包括首批国际市场。这是Waymo成立以来最雄心勃勃的扩张计划，全球Robotaxi竞争已从技术验证进入规模化商业扩张阶段。</p>
+<a class="link" href="https://builtin.com/articles/waymo-robotaxis" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>
+</div>
+<div class="card">
+<span class="tag tag-news">行业资讯</span>
+<div class="meta"><span class="date">📅 2026-05-08</span></div>
+<h3>OpenAI 2026年5月上线三款实时语音交互模型，支持端到端低延迟对话</h3>
+<p>2026年5月8日，OpenAI上线三款实时语音交互模型，支持端到端低延迟对话。新模型面向实时API推出，能实现更自然的语音交互体验，对智能座舱语音助手、客服机器人等场景具有重要应用价值。</p>
+<a class="link" href="https://post.smzdm.com/p/agg0zzld/" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>
+</div>
+<div class="card">
+<span class="tag tag-news">行业资讯</span>
+<div class="meta"><span class="date">📅 2026-05-04</span></div>
+<h3>小马智行港股美股双双收涨，发布新车与成本控制利好</h3>
+<p>2026年5月4日经济观察网报道，小马智行港股美股双双收涨。公司在2026北京车展期间发布多项利好，包括Robotaxi成本降至23万元以内、计划年底前在20余城运营超3000台车辆等。同时面临破发、未盈利及解禁等市场风险。</p>
+<a class="link" href="https://www.eeo.com.cn/2026/0505/864563.shtml" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>
+</div>
+<div class="card">
+<span class="tag tag-news">行业资讯</span>
+<div class="meta"><span class="date">📅 2026-05-09</span></div>
+<h3>特斯拉自动驾驶获中国政策利好，股价大涨15%</h3>
+<p>BBC中文5月报道，中国对特斯拉自动驾驶功能开放绿灯，FSD（完全自动驾驶）入华进程加速，特斯拉股价大涨15%。市场分析认为FSD入华将加剧中国自动驾驶市场竞争格局，对国内Robotaxi运营商形成竞争压力。</p>
+<a class="link" href="https://www.bbc.com/zhongwen/simp/business-68927139" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>
+</div>
+<div class="card">
+<span class="tag tag-news">行业资讯</span>
+<div class="meta"><span class="date">📅 2026-04-28</span></div>
+<h3>Anthropic发布Claude for Creative Work：AI创意设计新工具</h3>
+<p>2026年4月28日Anthropic发布Claude for Creative Work，一款面向创意设计领域的AI辅助工具。该工具支持快速原型探索和设计交付，是Anthropic在竞争激烈的AI市场中拓展细分场景的最新举措。</p>
+<a class="link" href="https://www.anthropic.com/news/claude-for-creative-work" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>
+</div>
+<div class="card">
+<span class="tag tag-news">行业资讯</span>
+<div class="meta"><span class="date">📅 2026-05-07</span></div>
+<h3>T3出行IPO推进中，对标特斯拉Robotaxi模式</h3>
+<p>2026年5月7日雪球消息，T3出行推进IPO，公司估值两倍于曹操出行。T3出行联合吉利在2026北京车展发布了原生开发Robotaxi车型，对标特斯拉Cybercab商业模式。网约车平台正在从传统出行向Robotaxi运营转型。</p>
+<a class="link" href="https://xueqiu.com/9473732460/387520132" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>
+</div>
+
+</div>
+<div class="section" id="expert">
+<div class="section-header">
+<div class="section-icon speech">🎙️</div>
+<div class="section-title">大咖观点</div>
+<div class="section-desc">行业领袖公开发言</div>
+</div>
+<div class="card">
+<span class="tag tag-speech">观点摘要</span>
+<div class="meta"><span class="speaker">🎤 行业分析师</span><span>2026北京车展后评论</span><span class="date">📅 2026-05-07</span></div>
+<h3>行业分析师</h3>
+<p>行业分析指出，2026年北京车展上Robotaxi赛道释放明确信号：商业化正在从单点示范走向规模化复制。自动驾驶科技公司（小马智行）、整车企业（比亚迪、吉利）、出行平台（滴滴、T3出行）三方同步发力，2026年被视为Robotaxi商业化元年。</p>
+<a class="link" href="http://auto.cyol.com/gb/articles/2026-05/07/content_BbynbNsBed.html" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>
+</div>
+<div class="card">
+<span class="tag tag-speech">观点摘要</span>
+<div class="meta"><span class="speaker">🎤 Uber CEO Dara Khosrowshahi</span><span>2026年Q1财报电话会（5月6日）</span><span class="date">📅 2026-05-07</span></div>
+<h3>Uber CEO Dara Khosrowshahi</h3>
+<p>Uber CEO在Q1财报会上透露，Uber平台上的自动驾驶出行服务同比增长超过10倍，目前已覆盖8个城市。Uber与Waymo的合作正在深化，计划在亚特兰大和迈阿密新增2000辆自动驾驶车辆。Robotaxi正在成为出行平台的核心增长引擎。</p>
+<a class="link" href="https://finance.sina.com.cn/tech/roll/2026-05-07/doc-inhxatez2742150.shtml" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>
+</div>
+<div class="card">
+<span class="tag tag-speech">观点摘要</span>
+<div class="meta"><span class="speaker">🎤 小马智行管理层</span><span>2026北京车展发布会</span><span class="date">📅 2026-04-24</span></div>
+<h3>小马智行管理层</h3>
+<p>小马智行在2026北京车展上宣布Robotaxi单车成本已降至23万元以内，计划2026年底在全球20余座城市运营超过3000台全无人Robotaxi。公司已在深圳实现单车盈利，正在从'烧钱'阶段进入商业回报期。</p>
+<a class="link" href="https://www.ithome.com/0/943/147/" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>
+</div>
+
+</div>
+<div class="section" id="reports">
+<div class="section-header">
+<div class="section-icon rpt">📈</div>
+<div class="section-title">研报精选</div>
+<div class="section-desc">最新研究报告</div>
+</div>
+<div class="card">
+<span class="tag tag-report">研究报告</span>
+<div class="meta"><span class="date">📅 2026-04-21</span></div>
+<h3>BCG报告：中国无人驾驶出租车上路——迈向规模化商业化</h3>
+<p>BCG（波士顿咨询）于2026年4月发布中国Robotaxi专题报告，全面分析无人驾驶出租车在中国市场的发展现状与前景。报告涵盖头部企业车队扩张进程、消费者接受度调研、技术可靠性评估及运营经济性分析，认为中国Robotaxi正处于从示范运营向规模化商业化的关键转型期。</p>
+<a class="link" href="https://www.bcg.com/publications/2026/china-robotaxi-on-the-road-approaching-scaled-commercializatio" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>
+</div>
+<div class="card">
+<span class="tag tag-report">研究报告</span>
+<div class="meta"><span class="date">📅 2026-05-07</span></div>
+<h3>2026年Robotaxi赛道深度分析：海外巨头与国内领跑者共绘商业化新蓝图</h3>
+<p>MSN中文网发布的行业分析文章指出，2026年是Robotaxi赛道商业化激战之年。小马智行在广州、深圳实现月度运营盈利，萝卜快跑更早于2024年底在武汉达成盈亏平衡。行业竞争焦点正从技术研发转向运营效率和成本控制，市场格局逐渐清晰。</p>
+<a class="link" href="https://www.msn.cn/zh-cn/技术/技术公司/2026年robotaxi赛道激战正酣-海外巨头与国内领跑者共绘商业化新蓝图/ar-AA22IYAz" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>
+</div>
+<div class="card">
+<span class="tag tag-report">研究报告</span>
+<div class="meta"><span class="date">📅 2026-05-01</span></div>
+<h3>全球无人驾驶出租车（Robotaxi）深度报告2026：技术演进与产业格局</h3>
+<p>知乎发布2026年全球Robotaxi深度研究报告，全面梳理技术演进路径、市场数据与竞争格局。报告指出随AI大模型、车载计算平台与传感器成本快速下降，Robotaxi正从技术验证期迈向规模化商业落地期。2026年全球Robotaxi市场规模预计将突破50亿美元。</p>
+<a class="link" href="https://zhuanlan.zhihu.com/p/2000209505363964356" target="_blank" rel="noopener">🔗 阅读原文 <span class="link-arrow">→</span></a>
+</div>
+
+</div>
+
+<div class="archive-panel" id="archive">
+<h3>📚 历史日报归档</h3>
+<div class="archive-list">
+<a href="?date=2026-05-12" class="active">2026-05-12</a>
+
+</div>
+<p style="color:var(--text-dim);font-size:13px;margin-top:12px;">点击日期切换查看各期日报。</p>
+</div>
+
+</div>
+
+<div class="footer">
+<p>日报 · 每日自动生成 · 保留所有历史版本</p>
+<p style="margin-top:4px;">数据来源：公开政策文件、新闻资讯及研究报告 · 所有链接均需可验证</p>
+</div>
+
+</body>
+</html>
