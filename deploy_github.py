@@ -62,12 +62,12 @@ def generate_index_html(reports):
     latest_report = reports[0]
     data = latest_report['data']
 
-    # Archive links
+    # Archive links - point to static archive pages
     archive_links = ''
     for r in reports:
         is_active = r['date'] == latest_report['date']
         cls = ' class="active"' if is_active else ''
-        archive_links += f'<a href="?date={r["date"]}"{cls}>{r["date"]}</a>\n'
+        archive_links += f'<a href="archive/report-{r["date"]}.html"{cls}>{r["date"]}</a>\n'
 
     # Build sections
     sections_html = ''
