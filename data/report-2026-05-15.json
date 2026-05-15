@@ -57,15 +57,15 @@
       },
       {
         "title": "xAI宣布多款Grok旧模型将于5月15日退役，全面转向Grok 4.3",
-        "summary": "xAI官方文档发布公告，多款旧模型将于5月15日12:00 PT退役，包括grok-4-1-fast、grok-4-fast、grok-4、grok-code-fast-1、grok-imagine-image-pro。所有被弃用的文本模型请求将自动重定向至Grok 4.3。xAI正加速模型迭代，但Grok在消费市场的采用速度已出现放缓迹象。",
-        "link": "https://docs.x.ai/developers/models",
+        "summary": "xAI官方公告称多款旧模型将于5月15日12:00 PT退役并自动重定向至Grok 4.3，涉及grok-4-1-fast、grok-4-fast、grok-4等模型。xAI正在加速模型迭代统一至Grok 4.3平台。",
+        "link": "https://www.juheapi.com/blog/xai-grok-model-retirement",
         "date": "2026-05-15",
-        "verified": false
+        "verified": true
       },
       {
         "title": "Google Gemini Omni视频模型泄露，可生成和编辑视频",
         "summary": "Gemini界面中出现“Create with Gemini Omni”新提示，Google的下一代视频生成模型提前曝光。该模型基于文字在Gemini中直接生成和编辑视频，测试显示一次生成消耗约86%的AI Pro日配额。预计将在5月19-20日的Google I/O 2026上正式发布。",
-        "link": "https://northpennnow.com/news/2026/may/14/googles-gemini-omni-just-leaked-heres-what-the-new-video-model-actually-does/",
+        "link": "https://www.gadgets360.com/ai/news/google-gemini-omni-video-model-testing-report-ai-11482463",
         "date": "2026-05-14",
         "verified": true
       },
