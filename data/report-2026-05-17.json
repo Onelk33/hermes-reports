@@ -1,0 +1,64 @@
+{
+  "title": "AI & 自动驾驶日报",
+  "date": "2026-05-17",
+  "cover_period": "2026年5月16日 - 5月17日",
+  "generated_at": "2026-05-19T11:30:00+08:00",
+  "sections": {
+    "tog": [
+      {
+        "title": "2026全球人工智能终端展在深圳闭幕，展示全域AI无人集群等前沿技术",
+        "summary": "以\u201c端启未来\u00b7万物新生\u201d为主题的2026全球人工智能终端展暨第七届深圳国际人工智能展览会在深圳会展中心落幕（5月14-16日）。科思科技携全域AI大模型无人集群指控系统、全国产全加固高算力模组等产品亮相，展示了AI与终端设备深度融合的最新成果。",
+        "link": "https://www.aiproducthub.cn/newsflash/2026-05-17/",
+        "date": "2026-05-17"
+      }
+    ],
+    "industry": [
+      {
+        "title": "特斯拉解封17份Robotaxi碰撞报告，首次披露事故细节",
+        "summary": "特斯拉向美国国家公路交通安全管理局（NHTSA）补交并解封全部17份自动驾驶系统碰撞报告，首次向公众披露每起事故的真实经过。报告显示多数事故为被追尾，两次涉及远程操作失误。事故发生在2025年7月至2026年3月期间，地点为奥斯汀Robotaxi运营区域。",
+        "link": "https://www.ithome.com/0/951/407.htm",
+        "date": "2026-05-17"
+      },
+      {
+        "title": "OpenAI推出ChatGPT个人理财功能，Pro用户可连接银行账户",
+        "summary": "OpenAI发布ChatGPT Personal Finance功能，向美国Pro订阅用户开放。通过Plaid合作，用户可连接12000多家金融机构的银行账户、信用卡和投资账户，用自然语言询问消费分析、现金流和投资建议。标志着AI助手从通用对话向个人金融管理领域的深度拓展。",
+        "link": "https://techcrunch.com/2026/05/15/openai-launches-chatgpt-for-personal-finance-will-let-you-connect-bank-accounts/",
+        "date": "2026-05-16"
+      },
+      {
+        "title": "Anthropic以9000亿美元估值推进巨额融资，首次超越OpenAI估值",
+        "summary": "Anthropic正推进至少300亿美元的新一轮融资，估值超9000亿美元，首次超越OpenAI的8520亿美元估值。本轮融资预计5月底完成，潜在IPO最早或于2026年10月进行。Anthropic在企业市场份额上已反超OpenAI（Ramp数据显示前者34.4% vs 后者32.3%），成为全球估值最高的私有AI公司。",
+        "link": "https://www.bloomberg.com/news/articles/2026-05-12/anthropic-in-talks-to-raise-30-billion-at-900-billion-valuation",
+        "date": "2026-05-16"
+      },
+      {
+        "title": "Waymo召回近3800辆Robotaxi：软件缺陷导致车辆驶入积水",
+        "summary": "Waymo因软件缺陷主动召回约3791辆Robotaxi。此前一辆Waymo自动驾驶出租车在San Antonio驶入积水路段。Waymo已向NHTSA提交自愿召回报告，将通过软件更新修复问题。Waymo同期也在推进12城市扩张计划，包括奥斯汀、亚特兰大等新市场。",
+        "link": "https://www.houstonpublicmedia.org/articles/news/transportation/2026/05/13/551764/waymo-recalls-almost-3800-robotaxis-after-flooding-incident-in-san-antonio/",
+        "date": "2026-05-16"
+      },
+      {
+        "title": "Google I/O 2026即将开幕：Gemini 4.0、XR眼镜等多款新品蓄势待发",
+        "summary": "Google I/O 2026将于5月19-20日举行，预计发布Gemini 4.0大模型、Android XR智能眼镜、Gemini Omni多模态模型等重磅产品。Google I/O被业界视为2026年最重要的AI行业盛会之一，将展示Google在AI领域的全栈布局。",
+        "link": "https://www.aixploria.com/en/ai-radar/google-io-2026-gemini-announcements-preview/",
+        "date": "2026-05-17"
+      }
+    ],
+    "expert_opinions": [
+      {
+        "title": "Sam Altman庭审证词持续引发关注：OpenAI与Musk法律战进入第三周",
+        "summary": "OpenAI CEO Sam Altman在Musk诉OpenAI案中持续作证，指控Musk在2017年要求对公司拟设营利性子公司的完全控制权，并曾表示让OpenAI \u201c传给他的孩子\u201d。Altman称Musk的管理风格对OpenAI文化造成了\u201c巨大伤害\u201d。该案的判决可能影响OpenAI未来的公司治理结构和IPO计划。",
+        "link": "https://techcrunch.com/2026/05/12/musk-mulled-handing-openai-to-his-children-altman-testifies/",
+        "date": "2026-05-16"
+      }
+    ],
+    "reports": [
+      {
+        "title": "本期暂无专业机构研报更新",
+        "summary": "覆盖期内（5月16-17日）未发现BCG、麦肯锡、高盛、中信证券等专业机构发布新的AI/自动驾驶专题研报。",
+        "link": "",
+        "date": "2026-05-17"
+      }
+    ]
+  }
+}
