@@ -1,0 +1,47 @@
+{
+  "date": "2026-05-19",
+  "cover_period": "2026年5月18日 - 5月19日",
+  "sections": {
+    "tog": [
+      {
+        "title": "李强北京调研：推动人工智能与先进制造业深度融合",
+        "summary": "5月18日，中共中央政治局常委、国务院总理李强在北京调研，先后考察小米汽车科技等企业。李强强调，要推动人工智能与先进制造业深度融合，积极促进智能机器人迭代升级，大力推进人工智能全方位赋能新型工业化。他指出，智能机器人综合集成大模型、高端制造、新材料等新技术，是AI和先进制造业融合发展的重要载体。",
+        "link": "https://www.news.cn/politics/leaders/20260518/5992f45c869a4dc4b2e6b038d2daae37/c.html",
+        "date": "2026-05-18",
+        "verified": true
+      }
+    ],
+    "industry": [
+      {
+        "title": "小鹏首台纯视觉Robotaxi量产下线，中国整车厂全栈自研首例",
+        "summary": "5月18日，小鹏集团首台Robotaxi量产车（基于小鹏GX）在广州正式下线，这是中国首次由整车厂以全栈自研方式完成Robotaxi前装量产。该车型采用纯视觉方案（不依赖激光雷达），搭载4颗自研AI芯片，总算力达3000TOPS，为全球最高算力的量产Robotaxi。预计今年下半年开启示范运营。",
+        "link": "https://www.ithome.com/0/951/967.htm",
+        "date": "2026-05-18",
+        "verified": true
+      },
+      {
+        "title": "Waymo扩大Robotaxi覆盖至11城1,400+平方英里，面积超罗德岛",
+        "summary": "Waymo宣布扩展其自动驾驶出行服务覆盖面积至超过1,400平方英里，横跨11个美国城市——面积已超过罗德岛州。此次扩张是近27%的覆盖面积增长，正值2026年FIFA世界杯临近（将在多个Waymo运营城市举办）。Waymo目前每周提供超50万次付费出行，为全球最大规模的全天候自动驾驶出行服务。",
+        "link": "https://cleantechnica.com/2026/05/18/waymo-reaching-11-cities-1400-square-miles-as-world-cup-approaches/",
+        "date": "2026-05-18",
+        "verified": true
+      },
+      {
+        "title": "OpenAI为ChatGPT Pro推出个人理财功能：可接入银行账户",
+        "summary": "OpenAI为美国ChatGPT Pro用户推出Personal Finance预览功能，允许用户通过Plaid平台连接银行账户、信用卡和投资账户。GPT-5.5将分析用户的收支数据，生成个性化财务建议和预算规划。该功能标志着AI助手从对话工具向金融管家角色的重要延伸，但也引发隐私和安全方面的广泛讨论。",
+        "link": "https://minfin.com.ua/2026/05/18/174103202/",
+        "date": "2026-05-18",
+        "verified": true
+      },
+      {
+        "title": "Google I/O 2026开幕：Gemini 4.0/Omni、Android XR眼镜及Aluminium OS备受期待",
+        "summary": "Google年度开发者大会I/O 2026于5月19日在山景城Shoreline Amphitheatre开幕，主题演讲于10am PT进行。预期重大发布包括：新一代Gemini旗舰模型（可能命名为Gemini 4.0或Gemini Omni）、与三星/Warby Parker合作的Android XR智能眼镜、全新操作系统Aluminium OS、以及Agentic Coding工具。这被认为是Google史上最重要的AI开发者大会之一。",
+        "link": "https://www.analyticsinsight.net/news/google-io-2026-gemini-omni-spark-android-xr-launch-expected-in-biggest-ai-push-yet",
+        "date": "2026-05-19",
+        "verified": true
+      }
+    ],
+    "expert_opinions": [],
+    "reports": []
+  }
+}
