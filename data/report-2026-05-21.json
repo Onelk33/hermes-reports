@@ -1,0 +1,96 @@
+{
+  "date": "2026-05-21",
+  "cover_period": "2026年5月20日 - 5月21日",
+  "note": "本期覆盖Google I/O 2026核心发布、马斯克诉OpenAI案败诉、Karpathy加入Anthropic等重大事件。",
+  "sections": {
+    "tog": [
+      {
+        "title": "武汉举办2026洪山大学之城创投生态大会，签约AI芯片与智能网联汽车等前沿项目",
+        "summary": "5月19-20日，2026洪山大学之城创投生态大会在武汉举行，10个环大学创新发展带基金投资项目、12个科学家创业项目集中签约，涵盖AI芯片、存储半导体、具身智能、卫星互联网、智能网联汽车等前沿赛道。武汉将依托高校资源加速AI与自动驾驶领域产业化落地。",
+        "link": "https://www.wuhan.gov.cn/sy/whyw/202605/t20260520_2766425.shtml",
+        "date": "2026-05-20",
+        "verified": true
+      },
+      {
+        "title": "MWC上海2026将设首个卫星产业区，六大展区聚焦移动AI与6G",
+        "summary": "2026年世界移动通信大会（MWC）上海宣布将首次设立专用卫星产业专区，展会设六大展区聚焦移动AI、6G通信等前沿方向。该专区将在2027年世界无线电通信大会（WRC-27）前夕亮相，汇聚亚太卫星、中国信科等企业，展示AI与通信基础设施融合的最新进展。",
+        "link": "https://tech.ifeng.com/c/8tHdc7Om54v",
+        "date": "2026-05-20",
+        "verified": true
+      }
+    ],
+    "industry": [
+      {
+        "title": "Google I/O 2026：发布Gemini 3.5 Flash、24/7 AI Agent\u300cGemini Spark\u300d及Android XR智能眼镜",
+        "summary": "Google I/O 2026于5月19-20日举行，发布多项重磅AI产品：Gemini 3.5 Flash（即日起可用，已集成到Google Search和Antigravity 2.0）、全天候个人AI代理Gemini Spark（下周向Ultra订阅用户开放Beta，可自主执行多步骤任务）、Android XR智能眼镜（三星+高通+Gentle Monster制造，今年秋季推出，兼容iPhone）、Ask YouTube（YouTube对话式AI搜索）、Universal Cart（跨商家AI购物车）以及AI Ultra订阅降价至$100/月。同时确认Gemini 3.5 Pro正在测试中，下月发布。",
+        "link": "https://techcrunch.com/2026/05/19/google-introduces-gemini-spark-a-24-7-agentic-assistant-with-gmail-integration/",
+        "date": "2026-05-20",
+        "verified": true
+      },
+      {
+        "title": "Andrej Karpathy加入Anthropic：OpenAI联合创始人转投竞争对手",
+        "summary": "OpenAI联合创始人、前Tesla AI负责人Andrej Karpathy于5月19日宣布加入竞争对手Anthropic，负责预训练团队。Karpathy在AI研究界声望极高，被视为AI人才争夺战中的标志性转会。Anthropic表示Karpathy将在团队负责人Nick Joseph的带领下，专注于基础模型预训练工作。这一高调挖角标志着AI人才竞争进入白热化阶段。",
+        "link": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/",
+        "date": "2026-05-20",
+        "verified": true
+      },
+      {
+        "title": "马斯克诉OpenAI案败诉：加州陪审团一致裁定诉讼超时效",
+        "summary": "加州奥克兰联邦法院陪审团于5月19日做出裁决，一致驳回马斯克对OpenAI及CEO Sam Altman的全部诉讼请求。陪审团审议不到两小时即达成一致——马斯克的主张已超过诉讼时效。马斯克于2015年联合创立OpenAI，2018年退出董事会后提起诉讼，指控OpenAI违背非营利初心转为营利机构。OpenAI辩称从未承诺永久非营利，马斯克本人也曾讨论过营利结构。Altman在X上回应仅\u300cThank you\u300d两字。",
+        "link": "https://www.theguardian.com/technology/2026/may/18/sam-altman-trial-victory-elon-musk-openai",
+        "date": "2026-05-20",
+        "verified": true
+      },
+      {
+        "title": "驭势科技正式登陆港交所：成为\u300c全场景L4级自动驾驶第一股\u300d",
+        "summary": "5月20日，全场景L4级自动驾驶解决方案提供商驭势科技（UISEE，01511.HK）在港交所主板挂牌上市，发行价60.30港元/股，全球发售1446.12万股H股，募资超8.7亿港元，市值约90亿港元。驭势科技自主研U-Drive智能驾驶系统，主要应用于机场、厂区、港口、矿区等封闭场景及物流、巴士等开放场景，不直接参与Robotaxi赛道竞争。",
+        "link": "https://auto.gasgoo.com/news/202605/20I70458612C601.shtml",
+        "date": "2026-05-20",
+        "verified": true
+      },
+      {
+        "title": "Waymo无人出租车在亚特兰大集体\u300c迷路\u300d：一小时50辆车挤进死胡同",
+        "summary": "据IT之家5月20日报道，Waymo自动驾驶出租车近期在亚特兰大巴克黑德社区出现大规模导航异常，数十辆无人车在凌晨持续驶入一处环形死胡同并反复绕行。当地居民反映清晨6-7点间约有50辆车涌入，问题已扩散至附近其他街道。Waymo官方尚未对此做出正式解释。此类故障虽是偶发个案，但暴露出自动驾驶系统在高复杂度城市环境中仍存在导航决策短板。",
+        "link": "https://m.ithome.com/html/952876.htm",
+        "date": "2026-05-20",
+        "verified": true
+      },
+      {
+        "title": "奥斯汀发布2026年Robotaxi碰撞数据：Avride、Waymo和特斯拉事故均增加",
+        "summary": "奥斯汀美国政治家报5月19日报道最新Robotaxi碰撞数据，显示在奥斯汀运营的自动驾驶车队事故报告有所增加，涉及Avride、Waymo和特斯拉等企业。Waymo自3月以来已在奥斯汀完成630万英里自动驾驶里程。特斯拉FSD系统尚未获批用于完全无人驾驶运营。数据显示随着Robotaxi车队规模和运营里程扩大，监管机构对安全性的关注度持续上升。",
+        "link": "https://www.statesman.com/business/article/austin-robotaxi-crashes-avride-waymo-22264498.php",
+        "date": "2026-05-19",
+        "verified": true
+      }
+    ],
+    "expert_opinions": [
+      {
+        "title": "Andrej Karpathy宣布加入Anthropic：\u300c期待为AI安全与前沿研究贡献力量\u300d",
+        "summary": "OpenAI联合创始人、前Tesla AI总监Andrej Karpathy于5月19日在社交媒体上宣布加入Anthropic，负责预训练团队。Karpathy在2015年作为创始成员之一参与创立OpenAI，后曾担任Tesla AI总监，是AI领域最具影响力的研究员之一。他在声明中表示Anthropic在AI安全与前沿模型研究方面的重视与他的理念高度契合。多家媒体报道称这一转会\u300c改变了AI人才争抢格局\u300d。",
+        "speaker": "Andrej Karpathy（前OpenAI联合创始人、前Tesla AI总监）",
+        "occasion": "社交媒体公开发文及多家科技媒体报道",
+        "link": "https://www.forbes.com/sites/aliciapark/2026/05/19/openai-cofounder-and-former-tesla-ai-leader-andrej-karpathy-joins-anthropic/",
+        "date": "2026-05-19",
+        "verified": true
+      },
+      {
+        "title": "教皇Leo XIV与Anthropic联合创始人Christopher Olah发布首个AI通谕\u300cMagnifica Humanitas\u300d",
+        "summary": "梵蒂冈5月18日宣布，教皇Leo十四世的首份通谕\u300cMagnifica Humanitas\u300d（意为\u300c辉煌的人性\u300d）将于5月25日正式发布，聚焦\u300c人工智能时代人的尊严保护\u300d。Anthropic联合创始人、可解释性研究专家Christopher Olah将出席发布仪式。文件签署日为5月15日——恰是其前任Leo十三世发表《Rerum Novarum》（关于工业革命时期工人权利的奠基性教义）135周年纪念日。教皇明确将AI视为当代的工业革命，Olah的参会则表明教廷对\u300cAI可解释性\u300d的特别关注。",
+        "speaker": "Christopher Olah（Anthropic联合创始人、AI可解释性研究者）",
+        "occasion": "梵蒂冈官方发布会预告及多家媒体报道",
+        "link": "https://www.theguardian.com/world/2026/may/18/pope-leo-encyclical-human-dignity-ai-anthropic",
+        "date": "2026-05-19",
+        "verified": true
+      }
+    ],
+    "reports": [
+      {
+        "title": "本期暂无专业研报",
+        "summary": "在覆盖期内暂未找到匹配的专业机构研究报告（如BCG、麦肯锡、高盛、中信证券等）。",
+        "link": "",
+        "date": "",
+        "verified": false
+      }
+    ]
+  }
+}
