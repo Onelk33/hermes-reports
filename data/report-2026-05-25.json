@@ -1,0 +1,72 @@
+{
+  "date": "2026-05-25",
+  "cover_period": "2026年5月24日 - 5月25日",
+  "sections": {
+    "tog": [
+      {
+        "title": "中国—东盟人工智能产业创新中心在京成立",
+        "summary": "工业和信息化部副部长柯吉欣、东盟秘书长高金洪出席仪式并致辞。该中心旨在打造面向东盟的人工智能多边合作平台，充分发挥中国与东盟产业互补优势，持续深化人工智能领域务实合作，打造数字丝绸之路新引擎。",
+        "link": "https://aiproducthub.cn/newsflash/china-asean-ai-innovation-center-established-beijing/",
+        "date": "2026-05-24",
+        "verified": true
+      },
+      {
+        "title": "四部门联合印发《关于促进人工智能与能源双向赋能的行动方案》",
+        "summary": "国家发改委、国家能源局、工信部、国家数据局四部门联合印发行动方案，首次明确探索核电、氢能等能源以直连方式为算力设施供能。该文件在制度层面为核电直接接入数据中心配电房打开了政策窗口。",
+        "link": "https://aiproducthub.cn/newsflash/2026-05-25/",
+        "date": "2026-05-25",
+        "verified": true
+      }
+    ],
+    "industry": [
+      {
+        "title": "Anthropic完成300亿美元融资，估值超9000亿美元超越OpenAI",
+        "summary": "Anthropic于5月23-25日期间完成新一轮超300亿美元融资，由红杉资本、龙舟投资集团、Altimeter Capital和Greenoaks Capital联合领投。本轮投后估值超9000亿美元，首次超越OpenAI约8520亿美元的估值，成为全球估值最高的AI初创企业。Anthropic Q2营收达109亿美元，并首次实现盈利。",
+        "link": "https://www.arturmarkus.com/anthropic-raises-30-billion-at-900b-valuation-overtakes-openai-for-first-time-with-10-9b-q2-revenue-and-45b-spacex-gpu-contract/",
+        "date": "2026-05-25",
+        "verified": true
+      },
+      {
+        "title": "教皇方济各十四世发布首个AI通谕《Magnifica Humanitas》",
+        "summary": "教皇方济各十四世于5月25日发布上任以来首份通谕《Magnifica Humanitas》（意为\u201c伟大的人性\u201d），聚焦\u201c人工智能时代对人的保护\u201d。文件签署于5月15日\u2014\u2014恰逢教皇利奥十三世《Rerum Novarum》签署135周年。通谕谴责大型科技公司的\u201c权力文化\u201d，呼吁防止AI将人边缘化或工具化。Anthropic联合创始人出席发布仪式。",
+        "link": "https://www.theguardian.com/world/2026/may/25/pope-leo-encyclical-ai-artificial-intelligence-slavery",
+        "date": "2026-05-25",
+        "verified": true
+      },
+      {
+        "title": "TechCrunch：Waymo Robotaxi规模扩张与可持续性隐忧",
+        "summary": "TechCrunch发布Robotaxi行业深度分析，指出Waymo虽在旧金山等地周付费出行已超50万单，但规模扩张并不保证持久性。Waymo此前刚暂停高速公路服务（因施工区域导航问题），并在亚特兰大、圣安东尼奥因洪水暂停运营，面临NHTSA两项调查。文章认为自动驾驶商业化面临真实且持久的挑战。",
+        "link": "https://techcrunch.com/2026/05/24/techcrunch-mobility-robotaxi-reality-check/",
+        "date": "2026-05-24",
+        "verified": true
+      },
+      {
+        "title": "首届中学生人形机器人足球赛在北京海淀举行",
+        "summary": "首届中学生人形机器人足球赛（北京海淀）总决赛在清华附中举行，中央民族大学附属中学的好耶战队夺冠。赛事由中央广播电视总台北京总站联合海淀区委区政府主办，是国内首个面向中学生群体的人形机器人足球赛事，共吸引京内外44支赛队逾420名选手参与。",
+        "link": "https://aiproducthub.cn/newsflash/2026-05-25/",
+        "date": "2026-05-25",
+        "verified": true
+      }
+    ],
+    "expert_opinions": [
+      {
+        "title": "教皇方济各十四世：AI不应成为\u201c权力文化\u201d的工具",
+        "summary": "教皇方济各十四世在首个AI通谕《Magnifica Humanitas》中严正指出，人工智能的发展正受到\u201c权力文化\u201d（culture of power）的驱动，这可能导致人类尊严被侵蚀。他强调AI应当服务于全人类，而非加剧不平等。通谕特别关注AI对劳动权利、人际关系、创意工作以及社会不平等的深远影响，呼吁建立以人为中心的AI治理框架。",
+        "speaker": "教皇方济各十四世（Pope Leo XIV）",
+        "occasion": "首个AI通谕《Magnifica Humanitas》",
+        "link": "https://www.theguardian.com/world/2026/may/25/pope-leo-encyclical-ai-artificial-intelligence-slavery",
+        "date": "2026-05-25",
+        "verified": true
+      }
+    ],
+    "reports": [
+      {
+        "title": "本期暂无专业研报",
+        "summary": "在覆盖期内暂未找到匹配的专业机构研究报告（如BCG、麦肯锡、高盛、中信证券等）。",
+        "link": "",
+        "date": "",
+        "verified": false
+      }
+    ]
+  }
+}
