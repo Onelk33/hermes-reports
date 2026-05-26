@@ -27,13 +27,6 @@
         "verified": true
       },
       {
-        "title": "教皇方济各十四世发布首个AI通谕《Magnifica Humanitas》",
-        "summary": "教皇方济各十四世于5月25日发布上任以来首份通谕《Magnifica Humanitas》（意为\u201c伟大的人性\u201d），聚焦\u201c人工智能时代对人的保护\u201d。文件签署于5月15日\u2014\u2014恰逢教皇利奥十三世《Rerum Novarum》签署135周年。通谕谴责大型科技公司的\u201c权力文化\u201d，呼吁防止AI将人边缘化或工具化。Anthropic联合创始人出席发布仪式。",
-        "link": "https://www.theguardian.com/world/2026/may/25/pope-leo-encyclical-ai-artificial-intelligence-slavery",
-        "date": "2026-05-25",
-        "verified": true
-      },
-      {
         "title": "TechCrunch：Waymo Robotaxi规模扩张与可持续性隐忧",
         "summary": "TechCrunch发布Robotaxi行业深度分析，指出Waymo虽在旧金山等地周付费出行已超50万单，但规模扩张并不保证持久性。Waymo此前刚暂停高速公路服务（因施工区域导航问题），并在亚特兰大、圣安东尼奥因洪水暂停运营，面临NHTSA两项调查。文章认为自动驾驶商业化面临真实且持久的挑战。",
         "link": "https://techcrunch.com/2026/05/24/techcrunch-mobility-robotaxi-reality-check/",
@@ -50,13 +43,11 @@
     ],
     "expert_opinions": [
       {
-        "title": "教皇方济各十四世：AI不应成为\u201c权力文化\u201d的工具",
-        "summary": "教皇方济各十四世在首个AI通谕《Magnifica Humanitas》中严正指出，人工智能的发展正受到\u201c权力文化\u201d（culture of power）的驱动，这可能导致人类尊严被侵蚀。他强调AI应当服务于全人类，而非加剧不平等。通谕特别关注AI对劳动权利、人际关系、创意工作以及社会不平等的深远影响，呼吁建立以人为中心的AI治理框架。",
-        "speaker": "教皇方济各十四世（Pope Leo XIV）",
-        "occasion": "首个AI通谕《Magnifica Humanitas》",
-        "link": "https://www.theguardian.com/world/2026/may/25/pope-leo-encyclical-ai-artificial-intelligence-slavery",
-        "date": "2026-05-25",
-        "verified": true
+        "title": "本期暂无大咖观点",
+        "summary": "在覆盖期内暂未找到行业领袖的公开演讲或专访内容。",
+        "link": "",
+        "date": "",
+        "verified": false
       }
     ],
     "reports": [
