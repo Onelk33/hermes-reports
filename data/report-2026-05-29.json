@@ -1,69 +1,63 @@
 {
   "date": "2026-05-29",
-  "cover_period": "2026\u5e745\u670828\u65e5 - 5\u670829\u65e5",
+  "cover_period": "2026-05-28 ~ 2026-05-29",
   "sections": {
     "tog": [
       {
-        "title": "\u5e02\u573a\u76d1\u7ba1\u603b\u5c40\u3001\u56fd\u5bb6\u53d1\u6539\u59d4\u8054\u5408\u5370\u53d1\u300a\u4eba\u5de5\u667a\u80fd\u8ba1\u91cf\u4f53\u7cfb\u548c\u80fd\u529b\u5efa\u8bbe\u6307\u5f15\uff082026\u7248\uff09\u300b",
-        "summary": "5\u670828\u65e5\uff0c\u5e02\u573a\u76d1\u7ba1\u603b\u5c40\u3001\u56fd\u5bb6\u53d1\u5c55\u6539\u9769\u59d4\u8054\u5408\u5370\u53d1\u300a\u4eba\u5de5\u667a\u80fd\u8ba1\u91cf\u4f53\u7cfb\u548c\u80fd\u529b\u5efa\u8bbe\u6307\u5f15\uff082026\u7248\uff09\u300b\uff0c\u7cfb\u7edf\u5e03\u5c40\u4eba\u5de5\u667a\u80fd\u8ba1\u91cf\u80fd\u529b\u5efa\u8bbe\u3002\u8be5\u6307\u5f15\u65e8\u5728\u5efa\u7acb\u8986\u76d6AI\u7814\u53d1\u3001\u6d4b\u8bd5\u3001\u90e8\u7f72\u5168\u94fe\u6761\u7684\u8ba1\u91cf\u4f53\u7cfb\uff0c\u4e3aAI\u4ea7\u4e1a\u89c4\u6a21\u5316\u53d1\u5c55\u63d0\u4f9b\u57fa\u7840\u652f\u6491\u3002",
-        "link": "https://news.cctv.com/2026/05/28/ARTIYobHXYMXCokJknfRCAPF260528.shtml",
-        "date": "2026-05-28",
-        "verified": true
-      },
-      {
-        "title": "\u591a\u90e8\u95e8\u516c\u5e03\u91d1\u878d\u3001\u4eba\u5de5\u667a\u80fd\u7b49\u9886\u57df\u7acb\u6cd5\u5b89\u6392\uff0c\u5c3d\u5feb\u5236\u5b9a\u6d89\u5185\u5e55\u4ea4\u6613\u6cd5",
-        "summary": "5\u670828\u65e5\uff0c\u591a\u5bb6\u5a92\u4f53\u62a5\u9053\u4e2d\u592e\u653f\u6cd5\u59d4\u3001\u5168\u56fd\u4eba\u5927\u5e38\u59d4\u4f1a\u6cd5\u5de5\u59d4\u3001\u6700\u9ad8\u6cd5\u9662\u3001\u6700\u9ad8\u68c0\u3001\u516c\u5b89\u90e8\u3001\u53f8\u6cd5\u90e8\u7b49\u591a\u90e8\u95e8\u57285\u670827\u65e5\u56fd\u65b0\u529e\u53d1\u5e03\u4f1a\u4e0a\u4ecb\u7ecd\u63a8\u8fdb\u5168\u9762\u4f9d\u6cd5\u6cbb\u56fd\u60c5\u51b5\u3002\u91d1\u878d\u9886\u57df\u7acb\u6cd5\u52a0\u901f\uff0c\u4eca\u5e74\u5c06\u5236\u5b9a\u91d1\u878d\u6cd5\u3001\u91d1\u878d\u7a33\u5b9a\u6cd5\u7b49\uff0c\u4eba\u5de5\u667a\u80fd\u7acb\u6cd5\u4e5f\u88ab\u5217\u4e3a\u91cd\u70b9\u65b9\u5411\u3002",
-        "link": "https://finance.sina.com.cn/roll/2026-05-28/doc-inhzknaz1394853.shtml",
-        "date": "2026-05-28",
-        "verified": true
-      },
-      {
-        "title": "\u91cd\u5e86\u67e5\u5904\u9996\u4f8b\u5229\u7528AI\u751f\u6210\u6280\u672f\u5236\u4f5c\u53d1\u5e03\u865a\u5047\u5e7f\u544a\u6848",
-        "summary": "5\u670828\u65e5\uff0c\u91cd\u5e86\u5e02\u4e24\u6c5f\u65b0\u533a\u5e02\u573a\u76d1\u7ba1\u5c40\u4f9d\u6cd5\u67e5\u5904\u4e00\u8d77\u5229\u7528AI\u751f\u6210\u6280\u672f\u5236\u4f5c\u3001\u53d1\u5e03\u865a\u5047\u5e7f\u544a\u7684\u8fdd\u6cd5\u6848\u4ef6\uff0c\u7cfb\u91cd\u5e86\u5e02\u9996\u4f8b\u3002\u6b64\u6848\u4f53\u73b0\u4e86\u76d1\u7ba1\u5c42\u9762\u5bf9AI\u6ee5\u7528\u95ee\u9898\u7684\u5173\u6ce8\u548c\u5904\u7f6e\u529b\u5ea6\u63d0\u5347\u3002",
-        "link": "https://finance.sina.com.cn/tech/discovery/2026-05-28/doc-inhzmtwm1135883.shtml",
-        "date": "2026-05-28",
-        "verified": false
+        "title": "求是网发文：六个方面发力推动人工智能高质量发展",
+        "summary": "求是网5月28日发表评论文章，指出中国应从六个方面发力推动人工智能高质量发展：加强基础研究和关键技术攻关、推动人工智能与实体经济深度融合、完善人工智能治理体系、积极参与全球人工智能治理、加快人才培养、强化安全保障。文章特别提到高质量建设中国-金砖国家人工智能发展与合作中心、中国-东盟人工智能产业创新中心等国际合作平台。",
+        "link": "https://www.qstheory.cn/20260528/6005f9dfeb82488892c23f0f871f78c5/c.html",
+        "date": "2026-05-28"
       }
     ],
     "industry": [
       {
-        "title": "Waymo\u5728\u5fb7\u5dde\u81ea\u52a8\u9a7e\u9a76\u8f66\u8f86\u6ce8\u518c\u91cf\u8fdc\u8d85\u7279\u65af\u62c9\uff0c\u5dee\u8ddd\u8fbe14\u500d",
-        "summary": "5\u670828\u65e5\uff0c\u5fb7\u514b\u8428\u65af\u5ddeDMV\u65b0\u4e0a\u7ebf\u7684\u81ea\u52a8\u9a7e\u9a76\u8f66\u8f86\u6ce8\u518c\u6570\u636e\u5e73\u53f0\u663e\u793a\uff0cWaymo\u5728\u5fb7\u5dde\u6ce8\u518c\u8fd1600\u8f86\u81ea\u52a8\u9a7e\u9a76\u8f66\u8f86\uff0c\u8fdc\u8d85\u5176\u4ed6\u7ade\u4e89\u5bf9\u624b\u3002\u7279\u65af\u62c9\u4ec5\u670942\u8f86robotaxi\u5728\u5fb7\u5dde\u8fd0\u8425\uff0c\u4e0eElon Musk\u65e9\u524d\u5ba3\u79f0\u7684\u89c4\u6a21\u76ee\u6807\u5dee\u8ddd\u663e\u8457\u3002\u7279\u65af\u62c9\u7684robotaxi\u8fd8\u6d89\u53ca17\u8d77\u5df2\u77e5\u4e8b\u6545\uff0c\u5305\u62ec2\u8d77\u8f7b\u4f24\u548c1\u8d77\u4f4f\u9662\u4e8b\u4ef6\u3002",
+        "title": "Anthropic发布Claude Opus 4.8旗舰模型，引入Dynamic Workflows",
+        "summary": "Anthropic于5月28日发布Claude Opus 4.8，为目前最强公开模型。该模型在SWE-Bench Verified上达88.6%，在SWE-Bench Pro上达69.2%，显著超越Opus 4.7。新引入的Dynamic Workflows（研究预览）允许Claude Code同时协调数百个子智能体处理大规模任务；Effort Control功能让用户控制模型推理深度。定价保持不变（$5/$25每百万token），Fast Mode价格降至1/3。",
+        "link": "https://www.anthropic.com/news/claude-opus-4-8",
+        "date": "2026-05-28"
+      },
+      {
+        "title": "纽约时报：Anthropic估值超越OpenAI成全球最有价值AI创业公司",
+        "summary": "纽约时报5月28日报道，Anthropic完成约650亿美元新一轮融资，估值已超越OpenAI成为全球最有价值AI创业公司。该公司同时发布了Opus 4.8模型，首席执行官Dario Amodei表示模型在AI Agent能力和代码生成方面取得重大突破，技术护城河持续加深。Anthropic正与OpenAI展开IPO竞赛。",
+        "link": "https://www.nytimes.com/2026/05/28/technology/anthropic-tops-openai-valuation.html",
+        "date": "2026-05-28"
+      },
+      {
+        "title": "Waymo推出首款专用Robotaxi车型Ojai，由极氪制造",
+        "summary": "5月28日，Waymo开始向部分用户开放新款Ojai Robotaxi试乘服务，在旧金山、洛杉矶和凤凰城率先部署。Ojai由极氪制造，搭载第六代Waymo Driver硬件系统，座舱更宽敞、腿部空间更大，配备充电接口、杯架和后排显示屏。第六代系统可支持在降雪更多城市开展全自动驾驶运营。试乘在限定时间内免费。",
+        "link": "https://m.ithome.com/html/956820.htm",
+        "date": "2026-05-28"
+      },
+      {
+        "title": "得州自动驾驶车辆登记数据公布：Waymo 577辆远超Tesla 42辆",
+        "summary": "得克萨斯州5月28日生效的新法律要求自动驾驶公司向DMV登记车队规模。首次公布的数据显示：Waymo登记577辆自动驾驶车辆，Avride 317辆，Nuro 47辆，Tesla仅42辆。Bloomberg报道指出，Tesla的Robotaxi车队规模远小于Waymo，与其CEO马斯克宣称的扩张计划形成鲜明对比，显示自动驾驶商业化赛道差距正在拉大。",
         "link": "https://techcrunch.com/2026/05/28/waymo-dominates-texas-autonomous-vehicle-registrations-as-tesla-trails-behind/",
-        "date": "2026-05-28",
-        "verified": true
+        "date": "2026-05-28"
       },
       {
-        "title": "Mistral AI\u4e3e\u529eAI Now Summit\uff0c\u7b7e\u7ea2Airbus\u548cBMW\u5de5\u4e1aAI\u5408\u4f5c",
-        "summary": "5\u670828\u65e5\uff0c\u6cd5\u56fdAI\u521d\u521bMistral AI\u5728\u5df4\u9ece\u4e3e\u529e\u9996\u5c4aAI Now Summit\uff0c\u5ba3\u5e03\u4e0eAirbus\u548cBMW\u8fbe\u6210\u5de5\u4e1aAI\u5408\u4f5b\uff0c\u5c06AI\u5e94\u7528\u4e8e\u822a\u7a7a\u5b89\u5168\u3001\u78b0\u649e\u4eff\u771f\u548c\u8d28\u91cf\u63a7\u5236\u3002CEO Arthur Mensch\u540c\u65f6\u900f\u9732\u6b63\u63a2\u7d22\u81ea\u7814\u82af\u7247\u8bbe\u8ba1\uff0c\u4ee5\u83b7\u5f97\u66f4\u5927\u786e\u5b9a\u6027\u5e76\u4e0e\u7f8e\u56fd\u5de8\u5934\u7ade\u4e89\u3002",
-        "link": "https://reportvia.com/mistral-to-explore-designing-own-chips-ceo-arthur-mensch-says/",
-        "date": "2026-05-28",
-        "verified": true
-      },
-      {
-        "title": "ChatGPT\u5168\u7403\u5927\u89c4\u6a21\u9ad8\u5ef6\u8fdf\u6545\u969c\uff0c\u7ecf\u53865\u5c0f\u65f619\u5206\u949f\u6062\u590d",
-        "summary": "5\u670827\u65e5\u665a\u81f328\u65e5\u51cc\u6668\uff0cChatGPT\u7f51\u9875\u7aef\u4e0eAPI\u51fa\u73b0\u5168\u7403\u8303\u56f4\u9ad8\u5ef6\u8fdf\u6545\u969c\uff0c\u5f71\u54cd\u6240\u6709\u7528\u6237\u5c42\u3002OpenAI\u4e8e27\u65e522:47\u786e\u8ba4\u6545\u969c\uff0c28\u65e504:06\u5b8c\u6210\u6838\u5fc3\u4fee\u590d\uff0c\u8017\u65f6\u7ea65\u5c0f\u65f619\u5206\u949f\u3002\u6b64\u6b21\u4e8b\u4ef6\u53cd\u6620\u4e86\u5168\u7403\u5bf9ChatGPT\u7684\u9ad8\u5ea6\u4f9d\u8d56\u3002",
-        "link": "https://www.aitop100.cn/daily-ai-news",
-        "date": "2026-05-28",
-        "verified": true
+        "title": "何小鹏：L4级自动驾驶有望两年内实现，未来汽车半数成本或为软件",
+        "summary": "小鹏汽车董事长何小鹏5月28日接受采访时表示，L4级全自动驾驶有望在未来两年内实现，届时消费者购车费用中约一半将用于软件和服务。他称小鹏第二代VLA系统比行业第一梯队领先近5倍，未来3至5年所有汽车都将成为超级智能体。2026年被视为从L2直接跨越到L4的关键转折年。",
+        "link": "https://www.ithome.com/0/956/621.htm",
+        "date": "2026-05-28"
       }
     ],
     "expert_opinions": [
       {
-        "title": "Mistral AI CEO Arthur Mensch\uff1a\u6b27\u6d32\u6709\u4e24\u5e74\u7a97\u53e3\u671f\u5efa\u8bbeAI\u57fa\u7840\u8bbe\u65bd\uff0c\u5426\u5219\u5c06\u6c89\u4e3a\u7f8e\u56fd\u300c\u9644\u5eb8\u56fd\u300d",
-        "summary": "5\u670828\u65e5\uff0cMistral AI CEO Arthur Mensch\u5728AI Now Summit\u53ca\u63a5\u53d7CNBC\u91c7\u8bbf\u65f6\u53d1\u8868\u4e00\u7cfb\u5217\u91cd\u8981\u89c2\u70b9\uff1a\u6b27\u6d32\u5fc5\u987b\u5728\u4e24\u5e74\u5185\u53d1\u5c55\u81ea\u5df1\u7684AI\u57fa\u7840\u8bbe\u65bd\uff0c\u5426\u5219\u5c06\u5728AI\u65f6\u4ee3\u6c89\u4e3a\u7f8e\u56fd\u7684\u9644\u5eb8\u56fd\uff1bMensch\u540c\u65f6\u56de\u5e94\u4e86\u6559\u7687\u5bf9AI\u519b\u4e8b\u7528\u9014\u7684\u6279\u8bc4\uff0c\u8ba4\u4e3a\u6b27\u6d32\u9700\u8981\u81ea\u5df1\u7684AI\u5de5\u5177\u6765\u9707\u6151\u5bf9\u624b\u3002\u8fd9\u4e00\u7cfb\u5217\u53d1\u8a00\u6807\u5fd7\u7740\u6b27\u6d32AI\u4e3b\u6743\u8bdd\u8bed\u7684\u5168\u9762\u63d0\u5347\u3002",
-        "link": "https://www.cnbc.com/2026/05/28/mistral-arthur-mensch-design-chips-ai-data-centers.html",
-        "date": "2026-05-28",
-        "verified": false
+        "title": "Anthropic CEO Dario Amodei：Opus 4.8是最「诚实」的AI模型",
+        "summary": "在5月28日的Claude Opus 4.8发布会上，Anthropic联合创始人兼CEO Dario Amodei表示，Opus 4.8是最「诚实」的AI模型——在面对自身错误时能主动识别并修正，相比前代模型降低约4倍的代码缺陷遗漏率。他称动态工作流（Dynamic Workflows）标志着AI从单任务助手向大规模自主智能体系统演进的关键一步。同时，Anthropic最新估值已超越OpenAI，Amodei强调公司将继续以安全性和可靠性为核心差异化优势。",
+        "speaker": "Dario Amodei（Anthropic CEO）",
+        "occasion": "Code with Claude开发者大会暨Opus 4.8发布会",
+        "link": "https://thegadgetscentral.com/technology/2026/05/28/anthropic-claude-opus-4-8-launch/",
+        "date": "2026-05-28"
       }
     ],
     "reports": [
       {
-        "title": "\u672c\u671f\u6682\u65e0\u4e13\u4e1a\u7814\u62a5",
-        "summary": "\u5728\u8986\u76d6\u671f\u5185\u6682\u672a\u627e\u5230\u5339\u914d\u7684\u4e13\u4e1a\u673a\u6784\u7814\u7a76\u62a5\u544a\uff08\u5982BCG\u3001\u9ea6\u80af\u9521\u3001\u9ad8\u76db\u3001\u4e2d\u4fe1\u8bc1\u5238\u7b49\uff09\u3002",
+        "title": "本期暂无专业研报",
+        "summary": "在覆盖期（5月28日-29日）内暂未找到匹配的专业机构研究报告（如BCG、麦肯锡、高盛、中信证券等）。",
         "link": "",
-        "date": "",
-        "verified": false
+        "date": ""
       }
     ]
   }
