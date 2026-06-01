@@ -1,0 +1,75 @@
+{
+  "date": "2026-06-01",
+  "cover_period": "2026年5月31日 - 6月1日",
+  "sections": {
+    "tog": [
+      {
+        "title": "人工智能相关产品拉动外贸增长，高技术含量AI产品出口快速攀升",
+        "summary": "中国政府网发文指出，算力服务加速出海的同时，我国出口清单上智能产品表现亮眼。从电脑零部件、电子元器件到工业机器人、3D打印机，高技术含量、高附加值的人工智能产品出口快速增长，产业向着中高端迈进。文章反映了AI产业对我国外贸结构的积极拉动作用。",
+        "link": "https://www.gov.cn/yaowen/liebiao/202605/content_7070735.htm",
+        "date": "2026-05-31",
+        "verified": true
+      }
+    ],
+    "industry": [
+      {
+        "title": "三星与OpenAI定制AI芯片研发项目因战略分歧陷入停滞",
+        "summary": "据韩媒Greened报道，三星与OpenAI的定制AI芯片研发工作遭遇阻碍。三星原本基于ARM架构为OpenAI研发一款推理型神经网络处理器（NPU），前期研发已取得不小进展，但双方因战略分歧导致项目陷入停滞。OpenAI CEO萨姆·奥尔特曼此前多次赴韩与三星高层会面，此次停滞可能影响OpenAI自研芯片的进度。",
+        "link": "https://m.ithome.com/html/957706.htm",
+        "date": "2026-05-31",
+        "verified": true
+      },
+      {
+        "title": "NVIDIA N1X/N1 ARM处理器规格全面泄露，Computex 2026发布在即",
+        "summary": "英伟达、微软和Arm联合发布'PC新纪元'预告，指向Computex 2026。最新泄露显示N1X芯片配置20核ARM CPU（联发科设计）、RTX 5070级Blackwell GPU（40-48个SM单元），支持128GB LPDDR5X内存，功耗45W-80W。N1系列包括N1X旗舰版（20核/48SM）和N1标准版（12核/10核配置），将成为NVIDIA十年来首款消费级CPU，标志着Windows on Arm生态的重大转折。",
+        "link": "https://www.gizmochina.com/2026/05/31/nvidia-n1-series-arm-processor-specs-leaked/",
+        "date": "2026-05-31",
+        "verified": true
+      },
+      {
+        "title": "NVIDIA黄仁勋将于Computex 2026发表开幕演讲，高通CEO同日登台",
+        "summary": "Reuters报道，NVIDIA CEO黄仁勋将于6月1日在台北音乐中心发表Computex 2026开幕主题演讲（11am台北时间/8pm PT 5月31日），预计长达两小时，涵盖AI、PC处理器、机器人和NVIDIA最新产品路线图。高通CEO Cristiano Amon也将在同日发表演讲。此次Computex汇聚1500家企业、33国参展商，NVIDIA的N1X芯片发布成为最大看点。",
+        "link": "https://www.reuters.com/world/china/nvidia-ceo-kick-off-dominate-computex-gathering-taipei-2026-05-31/",
+        "date": "2026-05-31",
+        "verified": true
+      },
+      {
+        "title": "Microsoft Build 2026即将开幕：AI Agent、GitHub Copilot和Windows本地AI成焦点",
+        "summary": "Microsoft Build 2026定于6月2-3日在旧金山Fort Mason Center举行，Satya Nadella的主题演讲将于PT 9:30开始。会议目录显示AI Agent、GitHub Copilot更新和Windows本地AI是核心方向。据The Information和Reuters报道，微软可能在此次大会上展示自研MAI模型，包括一款对标Claude Code的代码生成模型。",
+        "link": "https://www.notebookcheck.net/Microsoft-Build-2026-What-to-expect-from-the-June-2-keynote.1311546.0.html",
+        "date": "2026-05-31",
+        "verified": true
+      },
+      {
+        "title": "自动驾驶行业周报：Tesla注册42辆vs Waymo的577辆，差距显著",
+        "summary": "行业综述覆盖多项自动驾驶动态：德州自动驾驶授权计划文件显示Tesla仅有42辆注册自动驾驶车辆，远低于Waymo的577辆，Tesla在robotaxi领域仍处追赶状态；WeRide与Uber宣布扩大战略合作，计划未来五年新增15座国际城市部署Robotaxi服务；Helm.ai和Torc也在技术迭代方面取得进展。",
+        "link": "https://www.autoconnectedcar.com/2026/05/autonomous-self-driving-vehicle-news-tesla-waymo-weride-helm-ai-torc-more/",
+        "date": "2026-05-31",
+        "verified": true
+      },
+      {
+        "title": "TechCrunch Equity播客辩论：科技CEO是否患有'AI精神病'？",
+        "summary": "TechCrunch旗下Equity播客最新一期讨论了一个备受关注的话题：科技CEO们是否'特别容易陷入AI精神病'——即对AI能力过度乐观以至于脱离现实的倾向。节目探讨了AI行业领袖在公开表态中是否存在系统性偏差，以及这种偏差对行业发展方向的影响。",
+        "link": "https://techcrunch.com/2026/05/31/making-sense-of-the-debate-over-ai-psychosis/",
+        "date": "2026-05-31",
+        "verified": true
+      }
+    ],
+    "expert_opinions": [
+      {
+        "title": "本期暂无大咖观点",
+        "summary": "在覆盖期内暂未找到行业领袖的公开演讲或专访内容。注：NVIDIA CEO黄仁勋Computex 2026主题演讲于6月1日台北时间11:00开幕，相关报道将在后续日报中跟进。",
+        "link": "",
+        "date": ""
+      }
+    ],
+    "reports": [
+      {
+        "title": "本期暂无专业研报",
+        "summary": "在覆盖期内暂未找到匹配的专业机构研究报告（如BCG、麦肯锡、高盛、中信证券等）。",
+        "link": "",
+        "date": ""
+      }
+    ]
+  }
+}
